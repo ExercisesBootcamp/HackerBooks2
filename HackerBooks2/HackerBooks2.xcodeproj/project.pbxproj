@@ -13,6 +13,9 @@
 		AA2F4ECD1D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4EC81D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m */; };
 		AA2F4ECE1D9EDAA30049F6C0 /* AGTCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4ECA1D9EDAA30049F6C0 /* AGTCoreDataStack.m */; };
 		AA2F4ECF1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4ECC1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m */; };
+		AAB410D61D9EDDB5006E7E29 /* JARDownloadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB410D51D9EDDB5006E7E29 /* JARDownloadHelper.m */; };
+		AAB410DA1D9EDEC4006E7E29 /* Library.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAB410D81D9EDEC4006E7E29 /* Library.xcdatamodeld */; };
+		AAB410DD1D9EEADB006E7E29 /* JARLibraryBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB410DC1D9EEADB006E7E29 /* JARLibraryBaseClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,11 @@
 		AA2F4ECA1D9EDAA30049F6C0 /* AGTCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataStack.m; sourceTree = "<group>"; };
 		AA2F4ECB1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
 		AA2F4ECC1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
+		AAB410D41D9EDDB5006E7E29 /* JARDownloadHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARDownloadHelper.h; sourceTree = "<group>"; };
+		AAB410D51D9EDDB5006E7E29 /* JARDownloadHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARDownloadHelper.m; sourceTree = "<group>"; };
+		AAB410D91D9EDEC4006E7E29 /* Library.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Library.xcdatamodel; sourceTree = "<group>"; };
+		AAB410DB1D9EEADB006E7E29 /* JARLibraryBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARLibraryBaseClass.h; sourceTree = "<group>"; };
+		AAB410DC1D9EEADB006E7E29 /* JARLibraryBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARLibraryBaseClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 		AA2F4EA81D9ED6030049F6C0 /* HackerBooks2 */ = {
 			isa = PBXGroup;
 			children = (
+				AAB410D71D9EDEAC006E7E29 /* Model */,
 				AA2F4EC61D9EDA540049F6C0 /* Controllers */,
 				AA2F4EAC1D9ED6040049F6C0 /* AppDelegate.h */,
 				AA2F4EAD1D9ED6040049F6C0 /* AppDelegate.m */,
@@ -93,8 +102,20 @@
 				AA2F4ECA1D9EDAA30049F6C0 /* AGTCoreDataStack.m */,
 				AA2F4ECB1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.h */,
 				AA2F4ECC1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m */,
+				AAB410D41D9EDDB5006E7E29 /* JARDownloadHelper.h */,
+				AAB410D51D9EDDB5006E7E29 /* JARDownloadHelper.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AAB410D71D9EDEAC006E7E29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAB410D81D9EDEC4006E7E29 /* Library.xcdatamodeld */,
+				AAB410DB1D9EEADB006E7E29 /* JARLibraryBaseClass.h */,
+				AAB410DC1D9EEADB006E7E29 /* JARLibraryBaseClass.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2F4EAE1D9ED6040049F6C0 /* AppDelegate.m in Sources */,
+				AAB410DA1D9EDEC4006E7E29 /* Library.xcdatamodeld in Sources */,
 				AA2F4ECF1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m in Sources */,
+				AAB410DD1D9EEADB006E7E29 /* JARLibraryBaseClass.m in Sources */,
 				AA2F4EAB1D9ED6030049F6C0 /* main.m in Sources */,
 				AA2F4ECE1D9EDAA30049F6C0 /* AGTCoreDataStack.m in Sources */,
 				AA2F4ECD1D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m in Sources */,
+				AAB410D61D9EDDB5006E7E29 /* JARDownloadHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +332,22 @@
 				AA2F4EC21D9ED6040049F6C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAB410D81D9EDEC4006E7E29 /* Library.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAB410D91D9EDEC4006E7E29 /* Library.xcdatamodel */,
+			);
+			currentVersion = AAB410D91D9EDEC4006E7E29 /* Library.xcdatamodel */;
+			path = Library.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA2F4E9E1D9ED6030049F6C0 /* Project object */;
 }
