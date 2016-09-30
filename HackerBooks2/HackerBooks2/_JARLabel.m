@@ -1,20 +1,20 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGLabel.m instead.
+// Make changes to JARLabel.m instead.
 
-#import "_DRGLabel.h"
+#import "_JARLabel.h"
 
-const struct DRGLabelAttributes DRGLabelAttributes = {
+const struct JARLabelAttributes JARLabelAttributes = {
 	.name = @"name",
 };
 
-const struct DRGLabelRelationships DRGLabelRelationships = {
+const struct JARLabelRelationships JARLabelRelationships = {
 	.tags = @"tags",
 };
 
-@implementation DRGLabelID
+@implementation JARLabelID
 @end
 
-@implementation _DRGLabel
+@implementation _JARLabel
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -30,8 +30,8 @@ const struct DRGLabelRelationships DRGLabelRelationships = {
 	return [NSEntityDescription entityForName:@"Label" inManagedObjectContext:moc_];
 }
 
-- (DRGLabelID*)objectID {
-	return (DRGLabelID*)[super objectID];
+- (JARLabelID*)objectID {
+	return (JARLabelID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

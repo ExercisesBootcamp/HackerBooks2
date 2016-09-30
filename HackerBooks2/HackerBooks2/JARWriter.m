@@ -1,12 +1,12 @@
-#import "DRGWriter.h"
+#import "JARWriter.h"
 
-@interface DRGWriter ()
+@interface JARWriter ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGWriter
+@implementation JARWriter
 
 // Custom logic goes here.
 
@@ -18,9 +18,9 @@
 
     NSArray *results = [context executeFetchRequest:req error:nil];
     
-    DRGWriter *writer;
+    JARWriter *writer;
     if ([results count] == 0) {
-        writer = [DRGWriter insertInManagedObjectContext:context];
+        writer = [JARWriter insertInManagedObjectContext:context];
         writer.name = name;
     } else if ([results count] == 1) {
         writer = [results lastObject];

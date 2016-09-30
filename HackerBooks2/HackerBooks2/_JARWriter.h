@@ -1,27 +1,27 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGWriter.h instead.
+// Make changes to JARWriter.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGWriterAttributes {
+extern const struct JARWriterAttributes {
 	__unsafe_unretained NSString *name;
-} DRGWriterAttributes;
+} JARWriterAttributes;
 
-extern const struct DRGWriterRelationships {
+extern const struct JARWriterRelationships {
 	__unsafe_unretained NSString *authors;
-} DRGWriterRelationships;
+} JARWriterRelationships;
 
-@class DRGAuthor;
+@class JARAuthor;
 
-@interface DRGWriterID : NSManagedObjectID {}
+@interface JARWriterID : NSManagedObjectID {}
 @end
 
-@interface _DRGWriter : DRGLibraryBaseClass {}
+@interface _JARWriter : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGWriterID* objectID;
+@property (nonatomic, readonly, strong) JARWriterID* objectID;
 
 @property (nonatomic, strong) NSString* name;
 
@@ -33,15 +33,15 @@ extern const struct DRGWriterRelationships {
 
 @end
 
-@interface _DRGWriter (AuthorsCoreDataGeneratedAccessors)
+@interface _JARWriter (AuthorsCoreDataGeneratedAccessors)
 - (void)addAuthors:(NSSet*)value_;
 - (void)removeAuthors:(NSSet*)value_;
-- (void)addAuthorsObject:(DRGAuthor*)value_;
-- (void)removeAuthorsObject:(DRGAuthor*)value_;
+- (void)addAuthorsObject:(JARAuthor*)value_;
+- (void)removeAuthorsObject:(JARAuthor*)value_;
 
 @end
 
-@interface _DRGWriter (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARWriter (CoreDataGeneratedPrimitiveAccessors)
 
 - (NSString*)primitiveName;
 - (void)setPrimitiveName:(NSString*)value;

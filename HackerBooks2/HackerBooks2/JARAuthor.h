@@ -1,10 +1,10 @@
-#import "_DRGAuthor.h"
+#import "_JARAuthor.h"
 
-@interface DRGAuthor : _DRGAuthor {}
+@interface JARAuthor : _JARAuthor {}
 // Custom logic goes here.
 
 + (instancetype)authorNamed:(NSString *)name
-                     ofBook:(DRGBook *)book
+                     ofBook:(JARBook *)book
                 withContext:(NSManagedObjectContext *)context;
 
 @end

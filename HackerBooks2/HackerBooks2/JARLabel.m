@@ -1,12 +1,12 @@
-#import "DRGLabel.h"
+#import "JARLabel.h"
 
-@interface DRGLabel ()
+@interface JARLabel ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGLabel
+@implementation JARLabel
 
 // Custom logic goes here.
 
@@ -20,10 +20,10 @@
     
     NSArray *results = [context executeFetchRequest:req error:nil];
     
-    DRGLabel *label;
+    JARLabel *label;
     if ([results count] == 0) {
         // Create a new one
-        label = [DRGLabel insertInManagedObjectContext:context];
+        label = [JARLabel insertInManagedObjectContext:context];
         label.name = normalizedName;
     } else if ([results count] == 1) {
         // Use previous one
@@ -50,7 +50,7 @@
 
 #pragma mark - Comparison
 
-- (NSComparisonResult)compare:(DRGLabel *)other {
+- (NSComparisonResult)compare:(JARLabel *)other {
     
     /* favorite always comes first */
     if ([self.name isEqualToString:other.name]) {

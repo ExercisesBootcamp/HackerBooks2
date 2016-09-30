@@ -1,12 +1,12 @@
-#import "DRGPhoto.h"
+#import "JARPhoto.h"
 
-@interface DRGPhoto ()
+@interface JARPhoto ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGPhoto
+@implementation JARPhoto
 
 - (UIImage *)image {
     

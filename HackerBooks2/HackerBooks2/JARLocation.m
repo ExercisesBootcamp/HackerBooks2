@@ -1,12 +1,12 @@
-#import "DRGLocation.h"
+#import "JARLocation.h"
 
-@interface DRGLocation ()
+@interface JARLocation ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGLocation
+@implementation JARLocation
 
 + (instancetype)locationWithLatitude:(double)latitude
                         andLongitude:(double)longitude
@@ -18,9 +18,9 @@
     
     NSArray *results = [context executeFetchRequest:req error:nil];
     
-    DRGLocation *location;
+    JARLocation *location;
     if ([results count] == 0) {
-        location = [DRGLocation insertInManagedObjectContext:context];
+        location = [JARLocation insertInManagedObjectContext:context];
         [location setLatitudeValue:latitude];
         [location setLongitudeValue:longitude];
     } else if ([results count] == 1) {

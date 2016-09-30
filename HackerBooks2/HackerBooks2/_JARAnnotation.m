@@ -1,24 +1,24 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGAnnotation.m instead.
+// Make changes to JARAnnotation.m instead.
 
-#import "_DRGAnnotation.h"
+#import "_JARAnnotation.h"
 
-const struct DRGAnnotationAttributes DRGAnnotationAttributes = {
+const struct JARAnnotationAttributes JARAnnotationAttributes = {
 	.text = @"text",
 	.title = @"title",
 };
 
-const struct DRGAnnotationRelationships DRGAnnotationRelationships = {
+const struct JARAnnotationRelationships JARAnnotationRelationships = {
 	.book = @"book",
 	.date = @"date",
 	.location = @"location",
 	.photo = @"photo",
 };
 
-@implementation DRGAnnotationID
+@implementation JARAnnotationID
 @end
 
-@implementation _DRGAnnotation
+@implementation _JARAnnotation
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -34,8 +34,8 @@ const struct DRGAnnotationRelationships DRGAnnotationRelationships = {
 	return [NSEntityDescription entityForName:@"Annotation" inManagedObjectContext:moc_];
 }
 
-- (DRGAnnotationID*)objectID {
-	return (DRGAnnotationID*)[super objectID];
+- (JARAnnotationID*)objectID {
+	return (JARAnnotationID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

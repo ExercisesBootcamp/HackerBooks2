@@ -1,34 +1,34 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGAnnotation.h instead.
+// Make changes to JARAnnotation.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGAnnotationAttributes {
+extern const struct JARAnnotationAttributes {
 	__unsafe_unretained NSString *text;
 	__unsafe_unretained NSString *title;
-} DRGAnnotationAttributes;
+} JARAnnotationAttributes;
 
-extern const struct DRGAnnotationRelationships {
+extern const struct JARAnnotationRelationships {
 	__unsafe_unretained NSString *book;
 	__unsafe_unretained NSString *date;
 	__unsafe_unretained NSString *location;
 	__unsafe_unretained NSString *photo;
-} DRGAnnotationRelationships;
+} JARAnnotationRelationships;
 
-@class DRGBook;
-@class DRGDate;
-@class DRGLocation;
-@class DRGPhoto;
+@class JARBook;
+@class JARDate;
+@class JARLocation;
+@class JARPhoto;
 
-@interface DRGAnnotationID : NSManagedObjectID {}
+@interface JARAnnotationID : NSManagedObjectID {}
 @end
 
-@interface _DRGAnnotation : DRGLibraryBaseClass {}
+@interface _JARAnnotation : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGAnnotationID* objectID;
+@property (nonatomic, readonly, strong) JARAnnotationID* objectID;
 
 @property (nonatomic, strong) NSString* text;
 
@@ -38,25 +38,25 @@ extern const struct DRGAnnotationRelationships {
 
 //- (BOOL)validateTitle:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) DRGBook *book;
+@property (nonatomic, strong) JARBook *book;
 
 //- (BOOL)validateBook:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) DRGDate *date;
+@property (nonatomic, strong) JARDate *date;
 
 //- (BOOL)validateDate:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) DRGLocation *location;
+@property (nonatomic, strong) JARLocation *location;
 
 //- (BOOL)validateLocation:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) DRGPhoto *photo;
+@property (nonatomic, strong) JARPhoto *photo;
 
 //- (BOOL)validatePhoto:(id*)value_ error:(NSError**)error_;
 
 @end
 
-@interface _DRGAnnotation (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARAnnotation (CoreDataGeneratedPrimitiveAccessors)
 
 - (NSString*)primitiveText;
 - (void)setPrimitiveText:(NSString*)value;
@@ -64,16 +64,16 @@ extern const struct DRGAnnotationRelationships {
 - (NSString*)primitiveTitle;
 - (void)setPrimitiveTitle:(NSString*)value;
 
-- (DRGBook*)primitiveBook;
-- (void)setPrimitiveBook:(DRGBook*)value;
+- (JARBook*)primitiveBook;
+- (void)setPrimitiveBook:(JARBook*)value;
 
-- (DRGDate*)primitiveDate;
-- (void)setPrimitiveDate:(DRGDate*)value;
+- (JARDate*)primitiveDate;
+- (void)setPrimitiveDate:(JARDate*)value;
 
-- (DRGLocation*)primitiveLocation;
-- (void)setPrimitiveLocation:(DRGLocation*)value;
+- (JARLocation*)primitiveLocation;
+- (void)setPrimitiveLocation:(JARLocation*)value;
 
-- (DRGPhoto*)primitivePhoto;
-- (void)setPrimitivePhoto:(DRGPhoto*)value;
+- (JARPhoto*)primitivePhoto;
+- (void)setPrimitivePhoto:(JARPhoto*)value;
 
 @end

@@ -1,6 +1,6 @@
-#import "_DRGPdf.h"
+#import "_JARPdf.h"
 
-@interface DRGPdf : _DRGPdf {}
+@interface JARPdf : _JARPdf {}
 // Custom logic goes here.
 
 + (instancetype)pdfForURL:(NSURL *)aURL withContext:(NSManagedObjectContext *)context;

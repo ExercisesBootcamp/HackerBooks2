@@ -1,21 +1,21 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGDate.m instead.
+// Make changes to JARDate.m instead.
 
-#import "_DRGDate.h"
+#import "_JARDate.h"
 
-const struct DRGDateAttributes DRGDateAttributes = {
+const struct JARDateAttributes JARDateAttributes = {
 	.creation = @"creation",
 	.modification = @"modification",
 };
 
-const struct DRGDateRelationships DRGDateRelationships = {
+const struct JARDateRelationships JARDateRelationships = {
 	.annotation = @"annotation",
 };
 
-@implementation DRGDateID
+@implementation JARDateID
 @end
 
-@implementation _DRGDate
+@implementation _JARDate
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -31,8 +31,8 @@ const struct DRGDateRelationships DRGDateRelationships = {
 	return [NSEntityDescription entityForName:@"Date" inManagedObjectContext:moc_];
 }
 
-- (DRGDateID*)objectID {
-	return (DRGDateID*)[super objectID];
+- (JARDateID*)objectID {
+	return (JARDateID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

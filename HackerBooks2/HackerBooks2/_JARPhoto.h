@@ -1,27 +1,27 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGPhoto.h instead.
+// Make changes to JARPhoto.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGPhotoAttributes {
+extern const struct JARPhotoAttributes {
 	__unsafe_unretained NSString *photoData;
-} DRGPhotoAttributes;
+} JARPhotoAttributes;
 
-extern const struct DRGPhotoRelationships {
+extern const struct JARPhotoRelationships {
 	__unsafe_unretained NSString *annotation;
-} DRGPhotoRelationships;
+} JARPhotoRelationships;
 
-@class DRGAnnotation;
+@class JARAnnotation;
 
-@interface DRGPhotoID : NSManagedObjectID {}
+@interface JARPhotoID : NSManagedObjectID {}
 @end
 
-@interface _DRGPhoto : DRGLibraryBaseClass {}
+@interface _JARPhoto : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGPhotoID* objectID;
+@property (nonatomic, readonly, strong) JARPhotoID* objectID;
 
 @property (nonatomic, strong) NSData* photoData;
 
@@ -33,15 +33,15 @@ extern const struct DRGPhotoRelationships {
 
 @end
 
-@interface _DRGPhoto (AnnotationCoreDataGeneratedAccessors)
+@interface _JARPhoto (AnnotationCoreDataGeneratedAccessors)
 - (void)addAnnotation:(NSSet*)value_;
 - (void)removeAnnotation:(NSSet*)value_;
-- (void)addAnnotationObject:(DRGAnnotation*)value_;
-- (void)removeAnnotationObject:(DRGAnnotation*)value_;
+- (void)addAnnotationObject:(JARAnnotation*)value_;
+- (void)removeAnnotationObject:(JARAnnotation*)value_;
 
 @end
 
-@interface _DRGPhoto (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARPhoto (CoreDataGeneratedPrimitiveAccessors)
 
 - (NSData*)primitivePhotoData;
 - (void)setPrimitivePhotoData:(NSData*)value;

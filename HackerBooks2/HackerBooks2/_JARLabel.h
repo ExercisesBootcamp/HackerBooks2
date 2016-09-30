@@ -1,27 +1,27 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGLabel.h instead.
+// Make changes to JARLabel.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGLabelAttributes {
+extern const struct JARLabelAttributes {
 	__unsafe_unretained NSString *name;
-} DRGLabelAttributes;
+} JARLabelAttributes;
 
-extern const struct DRGLabelRelationships {
+extern const struct JARLabelRelationships {
 	__unsafe_unretained NSString *tags;
-} DRGLabelRelationships;
+} JARLabelRelationships;
 
-@class DRGTag;
+@class JARTag;
 
-@interface DRGLabelID : NSManagedObjectID {}
+@interface JARLabelID : NSManagedObjectID {}
 @end
 
-@interface _DRGLabel : DRGLibraryBaseClass {}
+@interface _JARLabel : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGLabelID* objectID;
+@property (nonatomic, readonly, strong) JARLabelID* objectID;
 
 @property (nonatomic, strong) NSString* name;
 
@@ -33,15 +33,15 @@ extern const struct DRGLabelRelationships {
 
 @end
 
-@interface _DRGLabel (TagsCoreDataGeneratedAccessors)
+@interface _JARLabel (TagsCoreDataGeneratedAccessors)
 - (void)addTags:(NSSet*)value_;
 - (void)removeTags:(NSSet*)value_;
-- (void)addTagsObject:(DRGTag*)value_;
-- (void)removeTagsObject:(DRGTag*)value_;
+- (void)addTagsObject:(JARTag*)value_;
+- (void)removeTagsObject:(JARTag*)value_;
 
 @end
 
-@interface _DRGLabel (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARLabel (CoreDataGeneratedPrimitiveAccessors)
 
 - (NSString*)primitiveName;
 - (void)setPrimitiveName:(NSString*)value;

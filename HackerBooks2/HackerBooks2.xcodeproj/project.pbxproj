@@ -39,6 +39,8 @@
 		AAB411461D9EF785006E7E29 /* _JARPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411381D9EF785006E7E29 /* _JARPhoto.m */; };
 		AAB411471D9EF785006E7E29 /* _JARTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4113A1D9EF785006E7E29 /* _JARTag.m */; };
 		AAB411481D9EF785006E7E29 /* _JARWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4113C1D9EF785006E7E29 /* _JARWriter.m */; };
+		AAB4114D1D9EF8D6006E7E29 /* JARAnnotationViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4114B1D9EF8D6006E7E29 /* JARAnnotationViewCell.m */; };
+		AAB4114E1D9EF8D6006E7E29 /* JARAnnotationViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB4114C1D9EF8D6006E7E29 /* JARAnnotationViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +110,9 @@
 		AAB4113A1D9EF785006E7E29 /* _JARTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARTag.m; sourceTree = "<group>"; };
 		AAB4113B1D9EF785006E7E29 /* _JARWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARWriter.h; sourceTree = "<group>"; };
 		AAB4113C1D9EF785006E7E29 /* _JARWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARWriter.m; sourceTree = "<group>"; };
+		AAB4114A1D9EF8D6006E7E29 /* JARAnnotationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARAnnotationViewCell.h; sourceTree = "<group>"; };
+		AAB4114B1D9EF8D6006E7E29 /* JARAnnotationViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARAnnotationViewCell.m; sourceTree = "<group>"; };
+		AAB4114C1D9EF8D6006E7E29 /* JARAnnotationViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JARAnnotationViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +145,7 @@
 		AA2F4EA81D9ED6030049F6C0 /* HackerBooks2 */ = {
 			isa = PBXGroup;
 			children = (
+				AAB411491D9EF84A006E7E29 /* Views */,
 				AAB410D71D9EDEAC006E7E29 /* Model */,
 				AA2F4EC61D9EDA540049F6C0 /* Controllers */,
 				AA2F4EAC1D9ED6040049F6C0 /* AppDelegate.h */,
@@ -249,6 +255,16 @@
 			name = Human;
 			sourceTree = "<group>";
 		};
+		AAB411491D9EF84A006E7E29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4114A1D9EF8D6006E7E29 /* JARAnnotationViewCell.h */,
+				AAB4114B1D9EF8D6006E7E29 /* JARAnnotationViewCell.m */,
+				AAB4114C1D9EF8D6006E7E29 /* JARAnnotationViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2F4EB91D9ED6040049F6C0 /* Assets.xcassets in Resources */,
+				AAB4114E1D9EF8D6006E7E29 /* JARAnnotationViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +340,7 @@
 				AAB411451D9EF785006E7E29 /* _JARPdf.m in Sources */,
 				AAB411441D9EF785006E7E29 /* _JARLocation.m in Sources */,
 				AA2F4EAE1D9ED6040049F6C0 /* AppDelegate.m in Sources */,
+				AAB4114D1D9EF8D6006E7E29 /* JARAnnotationViewCell.m in Sources */,
 				AAB410DA1D9EDEC4006E7E29 /* Library.xcdatamodeld in Sources */,
 				AAB411231D9EF765006E7E29 /* JARTag.m in Sources */,
 				AAB411481D9EF785006E7E29 /* _JARWriter.m in Sources */,

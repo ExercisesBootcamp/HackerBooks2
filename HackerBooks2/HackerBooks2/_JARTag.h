@@ -1,42 +1,42 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGTag.h instead.
+// Make changes to JARTag.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGTagRelationships {
+extern const struct JARTagRelationships {
 	__unsafe_unretained NSString *book;
 	__unsafe_unretained NSString *label;
-} DRGTagRelationships;
+} JARTagRelationships;
 
-@class DRGBook;
-@class DRGLabel;
+@class JARBook;
+@class JARLabel;
 
-@interface DRGTagID : NSManagedObjectID {}
+@interface JARTagID : NSManagedObjectID {}
 @end
 
-@interface _DRGTag : DRGLibraryBaseClass {}
+@interface _JARTag : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGTagID* objectID;
+@property (nonatomic, readonly, strong) JARTagID* objectID;
 
-@property (nonatomic, strong) DRGBook *book;
+@property (nonatomic, strong) JARBook *book;
 
 //- (BOOL)validateBook:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) DRGLabel *label;
+@property (nonatomic, strong) JARLabel *label;
 
 //- (BOOL)validateLabel:(id*)value_ error:(NSError**)error_;
 
 @end
 
-@interface _DRGTag (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARTag (CoreDataGeneratedPrimitiveAccessors)
 
-- (DRGBook*)primitiveBook;
-- (void)setPrimitiveBook:(DRGBook*)value;
+- (JARBook*)primitiveBook;
+- (void)setPrimitiveBook:(JARBook*)value;
 
-- (DRGLabel*)primitiveLabel;
-- (void)setPrimitiveLabel:(DRGLabel*)value;
+- (JARLabel*)primitiveLabel;
+- (void)setPrimitiveLabel:(JARLabel*)value;
 
 @end

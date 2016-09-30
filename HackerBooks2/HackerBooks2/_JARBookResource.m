@@ -1,17 +1,17 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGBookResource.m instead.
+// Make changes to JARBookResource.m instead.
 
-#import "_DRGBookResource.h"
+#import "_JARBookResource.h"
 
-const struct DRGBookResourceAttributes DRGBookResourceAttributes = {
+const struct JARBookResourceAttributes JARBookResourceAttributes = {
 	.data = @"data",
 	.urlString = @"urlString",
 };
 
-@implementation DRGBookResourceID
+@implementation JARBookResourceID
 @end
 
-@implementation _DRGBookResource
+@implementation _JARBookResource
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -27,8 +27,8 @@ const struct DRGBookResourceAttributes DRGBookResourceAttributes = {
 	return [NSEntityDescription entityForName:@"BookResource" inManagedObjectContext:moc_];
 }
 
-- (DRGBookResourceID*)objectID {
-	return (DRGBookResourceID*)[super objectID];
+- (JARBookResourceID*)objectID {
+	return (JARBookResourceID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

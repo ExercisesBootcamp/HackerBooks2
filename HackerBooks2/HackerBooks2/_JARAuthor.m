@@ -1,17 +1,17 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGAuthor.m instead.
+// Make changes to JARAuthor.m instead.
 
-#import "_DRGAuthor.h"
+#import "_JARAuthor.h"
 
-const struct DRGAuthorRelationships DRGAuthorRelationships = {
+const struct JARAuthorRelationships JARAuthorRelationships = {
 	.book = @"book",
 	.writer = @"writer",
 };
 
-@implementation DRGAuthorID
+@implementation JARAuthorID
 @end
 
-@implementation _DRGAuthor
+@implementation _JARAuthor
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -27,8 +27,8 @@ const struct DRGAuthorRelationships DRGAuthorRelationships = {
 	return [NSEntityDescription entityForName:@"Author" inManagedObjectContext:moc_];
 }
 
-- (DRGAuthorID*)objectID {
-	return (DRGAuthorID*)[super objectID];
+- (JARAuthorID*)objectID {
+	return (JARAuthorID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

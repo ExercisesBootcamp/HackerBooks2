@@ -1,33 +1,33 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGCover.h instead.
+// Make changes to JARCover.h instead.
 
 @import CoreData;
-#import "DRGBookResource.h"
+#import "JARBookResource.h"
 
-extern const struct DRGCoverRelationships {
+extern const struct JARCoverRelationships {
 	__unsafe_unretained NSString *book;
-} DRGCoverRelationships;
+} JARCoverRelationships;
 
-@class DRGBook;
+@class JARBook;
 
-@interface DRGCoverID : DRGBookResourceID {}
+@interface JARCoverID : JARBookResourceID {}
 @end
 
-@interface _DRGCover : DRGBookResource {}
+@interface _JARCover : JARBookResource {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGCoverID* objectID;
+@property (nonatomic, readonly, strong) JARCoverID* objectID;
 
-@property (nonatomic, strong) DRGBook *book;
+@property (nonatomic, strong) JARBook *book;
 
 //- (BOOL)validateBook:(id*)value_ error:(NSError**)error_;
 
 @end
 
-@interface _DRGCover (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARCover (CoreDataGeneratedPrimitiveAccessors)
 
-- (DRGBook*)primitiveBook;
-- (void)setPrimitiveBook:(DRGBook*)value;
+- (JARBook*)primitiveBook;
+- (void)setPrimitiveBook:(JARBook*)value;
 
 @end

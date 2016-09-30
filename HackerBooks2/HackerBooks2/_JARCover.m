@@ -1,16 +1,16 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGCover.m instead.
+// Make changes to JARCover.m instead.
 
-#import "_DRGCover.h"
+#import "_JARCover.h"
 
-const struct DRGCoverRelationships DRGCoverRelationships = {
+const struct JARCoverRelationships JARCoverRelationships = {
 	.book = @"book",
 };
 
-@implementation DRGCoverID
+@implementation JARCoverID
 @end
 
-@implementation _DRGCover
+@implementation _JARCover
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -26,8 +26,8 @@ const struct DRGCoverRelationships DRGCoverRelationships = {
 	return [NSEntityDescription entityForName:@"Cover" inManagedObjectContext:moc_];
 }
 
-- (DRGCoverID*)objectID {
-	return (DRGCoverID*)[super objectID];
+- (JARCoverID*)objectID {
+	return (JARCoverID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

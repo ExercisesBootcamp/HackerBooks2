@@ -1,6 +1,6 @@
-#import "_DRGDate.h"
+#import "_JARDate.h"
 
-@interface DRGDate : _DRGDate {}
+@interface JARDate : _JARDate {}
 
 + (instancetype)dateWithContext:(NSManagedObjectContext *)context;
 

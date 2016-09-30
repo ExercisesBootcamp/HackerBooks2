@@ -1,35 +1,35 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGBook.h instead.
+// Make changes to JARBook.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGBookAttributes {
+extern const struct JARBookAttributes {
 	__unsafe_unretained NSString *title;
-} DRGBookAttributes;
+} JARBookAttributes;
 
-extern const struct DRGBookRelationships {
+extern const struct JARBookRelationships {
 	__unsafe_unretained NSString *annotations;
 	__unsafe_unretained NSString *authors;
 	__unsafe_unretained NSString *cover;
 	__unsafe_unretained NSString *pdf;
 	__unsafe_unretained NSString *tags;
-} DRGBookRelationships;
+} JARBookRelationships;
 
-@class DRGAnnotation;
-@class DRGAuthor;
-@class DRGCover;
-@class DRGPdf;
-@class DRGTag;
+@class JARAnnotation;
+@class JARAuthor;
+@class JARCover;
+@class JARPdf;
+@class JARTag;
 
-@interface DRGBookID : NSManagedObjectID {}
+@interface JARBookID : NSManagedObjectID {}
 @end
 
-@interface _DRGBook : DRGLibraryBaseClass {}
+@interface _JARBook : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGBookID* objectID;
+@property (nonatomic, readonly, strong) JARBookID* objectID;
 
 @property (nonatomic, strong) NSString* title;
 
@@ -43,11 +43,11 @@ extern const struct DRGBookRelationships {
 
 - (NSMutableSet*)authorsSet;
 
-@property (nonatomic, strong) DRGCover *cover;
+@property (nonatomic, strong) JARCover *cover;
 
 //- (BOOL)validateCover:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) DRGPdf *pdf;
+@property (nonatomic, strong) JARPdf *pdf;
 
 //- (BOOL)validatePdf:(id*)value_ error:(NSError**)error_;
 
@@ -57,31 +57,31 @@ extern const struct DRGBookRelationships {
 
 @end
 
-@interface _DRGBook (AnnotationsCoreDataGeneratedAccessors)
+@interface _JARBook (AnnotationsCoreDataGeneratedAccessors)
 - (void)addAnnotations:(NSSet*)value_;
 - (void)removeAnnotations:(NSSet*)value_;
-- (void)addAnnotationsObject:(DRGAnnotation*)value_;
-- (void)removeAnnotationsObject:(DRGAnnotation*)value_;
+- (void)addAnnotationsObject:(JARAnnotation*)value_;
+- (void)removeAnnotationsObject:(JARAnnotation*)value_;
 
 @end
 
-@interface _DRGBook (AuthorsCoreDataGeneratedAccessors)
+@interface _JARBook (AuthorsCoreDataGeneratedAccessors)
 - (void)addAuthors:(NSSet*)value_;
 - (void)removeAuthors:(NSSet*)value_;
-- (void)addAuthorsObject:(DRGAuthor*)value_;
-- (void)removeAuthorsObject:(DRGAuthor*)value_;
+- (void)addAuthorsObject:(JARAuthor*)value_;
+- (void)removeAuthorsObject:(JARAuthor*)value_;
 
 @end
 
-@interface _DRGBook (TagsCoreDataGeneratedAccessors)
+@interface _JARBook (TagsCoreDataGeneratedAccessors)
 - (void)addTags:(NSSet*)value_;
 - (void)removeTags:(NSSet*)value_;
-- (void)addTagsObject:(DRGTag*)value_;
-- (void)removeTagsObject:(DRGTag*)value_;
+- (void)addTagsObject:(JARTag*)value_;
+- (void)removeTagsObject:(JARTag*)value_;
 
 @end
 
-@interface _DRGBook (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARBook (CoreDataGeneratedPrimitiveAccessors)
 
 - (NSString*)primitiveTitle;
 - (void)setPrimitiveTitle:(NSString*)value;
@@ -92,11 +92,11 @@ extern const struct DRGBookRelationships {
 - (NSMutableSet*)primitiveAuthors;
 - (void)setPrimitiveAuthors:(NSMutableSet*)value;
 
-- (DRGCover*)primitiveCover;
-- (void)setPrimitiveCover:(DRGCover*)value;
+- (JARCover*)primitiveCover;
+- (void)setPrimitiveCover:(JARCover*)value;
 
-- (DRGPdf*)primitivePdf;
-- (void)setPrimitivePdf:(DRGPdf*)value;
+- (JARPdf*)primitivePdf;
+- (void)setPrimitivePdf:(JARPdf*)value;
 
 - (NSMutableSet*)primitiveTags;
 - (void)setPrimitiveTags:(NSMutableSet*)value;

@@ -1,42 +1,42 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGAuthor.h instead.
+// Make changes to JARAuthor.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGAuthorRelationships {
+extern const struct JARAuthorRelationships {
 	__unsafe_unretained NSString *book;
 	__unsafe_unretained NSString *writer;
-} DRGAuthorRelationships;
+} JARAuthorRelationships;
 
-@class DRGBook;
-@class DRGWriter;
+@class JARBook;
+@class JARWriter;
 
-@interface DRGAuthorID : NSManagedObjectID {}
+@interface JARAuthorID : NSManagedObjectID {}
 @end
 
-@interface _DRGAuthor : DRGLibraryBaseClass {}
+@interface _JARAuthor : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGAuthorID* objectID;
+@property (nonatomic, readonly, strong) JARAuthorID* objectID;
 
-@property (nonatomic, strong) DRGBook *book;
+@property (nonatomic, strong) JARBook *book;
 
 //- (BOOL)validateBook:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) DRGWriter *writer;
+@property (nonatomic, strong) JARWriter *writer;
 
 //- (BOOL)validateWriter:(id*)value_ error:(NSError**)error_;
 
 @end
 
-@interface _DRGAuthor (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARAuthor (CoreDataGeneratedPrimitiveAccessors)
 
-- (DRGBook*)primitiveBook;
-- (void)setPrimitiveBook:(DRGBook*)value;
+- (JARBook*)primitiveBook;
+- (void)setPrimitiveBook:(JARBook*)value;
 
-- (DRGWriter*)primitiveWriter;
-- (void)setPrimitiveWriter:(DRGWriter*)value;
+- (JARWriter*)primitiveWriter;
+- (void)setPrimitiveWriter:(JARWriter*)value;
 
 @end

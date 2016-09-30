@@ -1,18 +1,18 @@
-#import "DRGBook.h"
-#import "DRGCover.h"
-#import "DRGPdf.h"
-#import "DRGAuthor.h"
-#import "DRGTag.h"
-#import "DRGLabel.h"
-#import "DRGWriter.h"
+#import "JARBook.h"
+#import "JARCover.h"
+#import "JARPdf.h"
+#import "JARAuthor.h"
+#import "JARTag.h"
+#import "JARLabel.h"
+#import "JARWriter.h"
 
-@interface DRGBook ()
+@interface JARBook ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGBook
+@implementation JARBook
 
 #pragma mark - Factory
 
@@ -26,24 +26,24 @@
         return nil;
     }
 
-    DRGBook *book = [self insertInManagedObjectContext:context];
+    JARBook *book = [self insertInManagedObjectContext:context];
     // title
     book.title = [JSON objectForKey:@"title"];
     // cover
     NSURL *coverURL = [NSURL URLWithString:[JSON objectForKey:@"image_url"]];
-    book.cover = [DRGCover coverForURL:coverURL withContext:context];
+    book.cover = [JARCover coverForURL:coverURL withContext:context];
     // pdf
     NSURL *pdfURL = [NSURL URLWithString:[JSON objectForKey:@"pdf_url"]];
-    book.pdf = [DRGPdf pdfForURL:pdfURL withContext:context];
+    book.pdf = [JARPdf pdfForURL:pdfURL withContext:context];
     // authors
     NSArray *authors = [self extractAuthors:JSON];
     for (NSString *name in authors) {
-        [book addAuthorsObject:[DRGAuthor authorNamed:name ofBook:book withContext:context]];
+        [book addAuthorsObject:[JARAuthor authorNamed:name ofBook:book withContext:context]];
     }
     // tags
     NSArray *tags = [self extractTags:JSON];
     for (NSString *name in tags) {
-        [book addTagsObject:[DRGTag tagNamed:name ofBook:book withContext:context]];
+        [book addTagsObject:[JARTag tagNamed:name ofBook:book withContext:context]];
     }
     // annotation
     // NOTE: when a book is created there is any annotation on it.
@@ -54,7 +54,7 @@
 #pragma mark - KVO
 
 + (NSArray *)observableKeys {
-    return @[DRGBookRelationships.annotations, DRGBookRelationships.tags];
+    return @[JARBookRelationships.annotations, JARBookRelationships.tags];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
@@ -70,8 +70,8 @@
 
 - (BOOL)isFavoriteBook {
     // Is it tagged as Favorite?
-    for (DRGTag *tag in self.tags) {
-        DRGLabel *label = tag.label;
+    for (JARTag *tag in self.tags) {
+        JARLabel *label = tag.label;
         if ([label.name isEqualToString:FAVORITE_LABEL]) {
             return YES;
         }
@@ -88,7 +88,7 @@
     
     NSMutableArray *list = [[NSMutableArray alloc] init];
     NSArray *authors = [self.authors allObjects];
-    for (DRGAuthor *author in authors) {
+    for (JARAuthor *author in authors) {
         if (author.writer.name && ![author.writer.name isEqualToString:@""]) {
             [list addObject:author.writer.name];
         }
@@ -101,7 +101,7 @@
     
     NSMutableArray *list = [[NSMutableArray alloc] init];
     NSArray *tags = [self.tags allObjects];
-    for (DRGTag *tag in tags) {
+    for (JARTag *tag in tags) {
         if (tag.label.name && ![tag.label.name isEqualToString:@""]) {
             [list addObject:tag.label.name];
         }
@@ -113,7 +113,7 @@
 - (NSArray *)tagListExceptFavorite {
     NSMutableArray *list = [[NSMutableArray alloc] init];
     NSArray *tags = [self.tags allObjects];
-    for (DRGTag *tag in tags) {
+    for (JARTag *tag in tags) {
         if (tag.label.name && ![tag.label.name isEqualToString:@""] && ![tag.label.name isEqualToString:FAVORITE_LABEL]) {
             [list addObject:tag.label.name];
         }

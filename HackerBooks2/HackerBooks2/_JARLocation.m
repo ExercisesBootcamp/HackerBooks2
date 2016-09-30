@@ -1,21 +1,21 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGLocation.m instead.
+// Make changes to JARLocation.m instead.
 
-#import "_DRGLocation.h"
+#import "_JARLocation.h"
 
-const struct DRGLocationAttributes DRGLocationAttributes = {
+const struct JARLocationAttributes JARLocationAttributes = {
 	.latitude = @"latitude",
 	.longitude = @"longitude",
 };
 
-const struct DRGLocationRelationships DRGLocationRelationships = {
+const struct JARLocationRelationships JARLocationRelationships = {
 	.annotation = @"annotation",
 };
 
-@implementation DRGLocationID
+@implementation JARLocationID
 @end
 
-@implementation _DRGLocation
+@implementation _JARLocation
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -31,8 +31,8 @@ const struct DRGLocationRelationships DRGLocationRelationships = {
 	return [NSEntityDescription entityForName:@"Location" inManagedObjectContext:moc_];
 }
 
-- (DRGLocationID*)objectID {
-	return (DRGLocationID*)[super objectID];
+- (JARLocationID*)objectID {
+	return (JARLocationID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

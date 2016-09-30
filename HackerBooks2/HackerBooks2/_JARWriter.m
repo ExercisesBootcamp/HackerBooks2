@@ -1,20 +1,20 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGWriter.m instead.
+// Make changes to JARWriter.m instead.
 
-#import "_DRGWriter.h"
+#import "_JARWriter.h"
 
-const struct DRGWriterAttributes DRGWriterAttributes = {
+const struct JARWriterAttributes JARWriterAttributes = {
 	.name = @"name",
 };
 
-const struct DRGWriterRelationships DRGWriterRelationships = {
+const struct JARWriterRelationships JARWriterRelationships = {
 	.authors = @"authors",
 };
 
-@implementation DRGWriterID
+@implementation JARWriterID
 @end
 
-@implementation _DRGWriter
+@implementation _JARWriter
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -30,8 +30,8 @@ const struct DRGWriterRelationships DRGWriterRelationships = {
 	return [NSEntityDescription entityForName:@"Writer" inManagedObjectContext:moc_];
 }
 
-- (DRGWriterID*)objectID {
-	return (DRGWriterID*)[super objectID];
+- (JARWriterID*)objectID {
+	return (JARWriterID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

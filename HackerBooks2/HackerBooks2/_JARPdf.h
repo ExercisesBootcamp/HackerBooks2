@@ -1,33 +1,33 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGPdf.h instead.
+// Make changes to JARPdf.h instead.
 
 @import CoreData;
-#import "DRGBookResource.h"
+#import "JARBookResource.h"
 
-extern const struct DRGPdfRelationships {
+extern const struct JARPdfRelationships {
 	__unsafe_unretained NSString *book;
-} DRGPdfRelationships;
+} JARPdfRelationships;
 
-@class DRGBook;
+@class JARBook;
 
-@interface DRGPdfID : DRGBookResourceID {}
+@interface JARPdfID : JARBookResourceID {}
 @end
 
-@interface _DRGPdf : DRGBookResource {}
+@interface _JARPdf : JARBookResource {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGPdfID* objectID;
+@property (nonatomic, readonly, strong) JARPdfID* objectID;
 
-@property (nonatomic, strong) DRGBook *book;
+@property (nonatomic, strong) JARBook *book;
 
 //- (BOOL)validateBook:(id*)value_ error:(NSError**)error_;
 
 @end
 
-@interface _DRGPdf (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARPdf (CoreDataGeneratedPrimitiveAccessors)
 
-- (DRGBook*)primitiveBook;
-- (void)setPrimitiveBook:(DRGBook*)value;
+- (JARBook*)primitiveBook;
+- (void)setPrimitiveBook:(JARBook*)value;
 
 @end

@@ -1,28 +1,28 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGDate.h instead.
+// Make changes to JARDate.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGDateAttributes {
+extern const struct JARDateAttributes {
 	__unsafe_unretained NSString *creation;
 	__unsafe_unretained NSString *modification;
-} DRGDateAttributes;
+} JARDateAttributes;
 
-extern const struct DRGDateRelationships {
+extern const struct JARDateRelationships {
 	__unsafe_unretained NSString *annotation;
-} DRGDateRelationships;
+} JARDateRelationships;
 
-@class DRGAnnotation;
+@class JARAnnotation;
 
-@interface DRGDateID : NSManagedObjectID {}
+@interface JARDateID : NSManagedObjectID {}
 @end
 
-@interface _DRGDate : DRGLibraryBaseClass {}
+@interface _JARDate : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGDateID* objectID;
+@property (nonatomic, readonly, strong) JARDateID* objectID;
 
 @property (nonatomic, strong) NSDate* creation;
 
@@ -32,13 +32,13 @@ extern const struct DRGDateRelationships {
 
 //- (BOOL)validateModification:(id*)value_ error:(NSError**)error_;
 
-@property (nonatomic, strong) DRGAnnotation *annotation;
+@property (nonatomic, strong) JARAnnotation *annotation;
 
 //- (BOOL)validateAnnotation:(id*)value_ error:(NSError**)error_;
 
 @end
 
-@interface _DRGDate (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARDate (CoreDataGeneratedPrimitiveAccessors)
 
 - (NSDate*)primitiveCreation;
 - (void)setPrimitiveCreation:(NSDate*)value;
@@ -46,7 +46,7 @@ extern const struct DRGDateRelationships {
 - (NSDate*)primitiveModification;
 - (void)setPrimitiveModification:(NSDate*)value;
 
-- (DRGAnnotation*)primitiveAnnotation;
-- (void)setPrimitiveAnnotation:(DRGAnnotation*)value;
+- (JARAnnotation*)primitiveAnnotation;
+- (void)setPrimitiveAnnotation:(JARAnnotation*)value;
 
 @end

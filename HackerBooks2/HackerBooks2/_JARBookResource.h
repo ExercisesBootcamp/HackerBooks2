@@ -1,22 +1,22 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGBookResource.h instead.
+// Make changes to JARBookResource.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGBookResourceAttributes {
+extern const struct JARBookResourceAttributes {
 	__unsafe_unretained NSString *data;
 	__unsafe_unretained NSString *urlString;
-} DRGBookResourceAttributes;
+} JARBookResourceAttributes;
 
-@interface DRGBookResourceID : NSManagedObjectID {}
+@interface JARBookResourceID : NSManagedObjectID {}
 @end
 
-@interface _DRGBookResource : DRGLibraryBaseClass {}
+@interface _JARBookResource : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGBookResourceID* objectID;
+@property (nonatomic, readonly, strong) JARBookResourceID* objectID;
 
 @property (nonatomic, strong) NSData* data;
 
@@ -28,7 +28,7 @@ extern const struct DRGBookResourceAttributes {
 
 @end
 
-@interface _DRGBookResource (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARBookResource (CoreDataGeneratedPrimitiveAccessors)
 
 - (NSData*)primitiveData;
 - (void)setPrimitiveData:(NSData*)value;

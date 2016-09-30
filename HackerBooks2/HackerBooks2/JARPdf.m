@@ -1,18 +1,18 @@
-#import "DRGPdf.h"
+#import "JARPdf.h"
 
-@interface DRGPdf ()
+@interface JARPdf ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGPdf
+@implementation JARPdf
 
 // Custom logic goes here.
 
 + (instancetype)pdfForURL:(NSURL *)aURL withContext:(NSManagedObjectContext *)context {
     
-    DRGPdf *pdf = [DRGPdf insertInManagedObjectContext:context];
+    JARPdf *pdf = [JARPdf insertInManagedObjectContext:context];
     pdf.urlString = [aURL absoluteString];
     pdf.data = nil;
     

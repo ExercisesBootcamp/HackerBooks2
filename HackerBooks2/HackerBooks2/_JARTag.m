@@ -1,17 +1,17 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGTag.m instead.
+// Make changes to JARTag.m instead.
 
-#import "_DRGTag.h"
+#import "_JARTag.h"
 
-const struct DRGTagRelationships DRGTagRelationships = {
+const struct JARTagRelationships JARTagRelationships = {
 	.book = @"book",
 	.label = @"label",
 };
 
-@implementation DRGTagID
+@implementation JARTagID
 @end
 
-@implementation _DRGTag
+@implementation _JARTag
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -27,8 +27,8 @@ const struct DRGTagRelationships DRGTagRelationships = {
 	return [NSEntityDescription entityForName:@"Tag" inManagedObjectContext:moc_];
 }
 
-- (DRGTagID*)objectID {
-	return (DRGTagID*)[super objectID];
+- (JARTagID*)objectID {
+	return (JARTagID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

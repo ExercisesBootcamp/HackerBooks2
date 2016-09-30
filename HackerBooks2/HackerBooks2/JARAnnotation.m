@@ -1,19 +1,19 @@
-#import "DRGAnnotation.h"
-#import "DRGBook.h"
-#import "DRGPhoto.h"
-#import "DRGDate.h"
-#import "DRGLocation.h"
+#import "JARAnnotation.h"
+#import "JARBook.h"
+#import "JARPhoto.h"
+#import "JARDate.h"
+#import "JARLocation.h"
 #import "NSString+Validation.h"
 
-@interface DRGAnnotation ()
+@interface JARAnnotation ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGAnnotation
+@implementation JARAnnotation
 
-+ (instancetype)annotationOnBook:(DRGBook *)aBook
++ (instancetype)annotationOnBook:(JARBook *)aBook
                           titled:(NSString *)title
                         withText:(NSString *)text
                            photo:(UIImage *)image
@@ -28,7 +28,7 @@
         return nil;
     }
     
-    DRGAnnotation *ann = [DRGAnnotation insertInManagedObjectContext:context];
+    JARAnnotation *ann = [JARAnnotation insertInManagedObjectContext:context];
     // title
     ann.title = title;
     // book
@@ -36,10 +36,10 @@
     // text
     if (![NSString isEmpty:text]) { ann.text = text; }
     // image
-    ann.photo = [DRGPhoto insertInManagedObjectContext:context];
+    ann.photo = [JARPhoto insertInManagedObjectContext:context];
     if (image) { ann.photo.image = image; }
     // date
-    ann.date = [DRGDate dateWithContext:context];
+    ann.date = [JARDate dateWithContext:context];
     // location
     // TODO *****
     
@@ -49,7 +49,7 @@
 #pragma mark - KVO
 
 + (NSArray *)observableKeys {
-    return @[DRGAnnotationRelationships.photo, DRGAnnotationAttributes.text, DRGAnnotationAttributes.title];
+    return @[JARAnnotationRelationships.photo, JARAnnotationAttributes.text, JARAnnotationAttributes.title];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {

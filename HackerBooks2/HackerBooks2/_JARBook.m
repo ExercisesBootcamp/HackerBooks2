@@ -1,13 +1,13 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGBook.m instead.
+// Make changes to JARBook.m instead.
 
-#import "_DRGBook.h"
+#import "_JARBook.h"
 
-const struct DRGBookAttributes DRGBookAttributes = {
+const struct JARBookAttributes JARBookAttributes = {
 	.title = @"title",
 };
 
-const struct DRGBookRelationships DRGBookRelationships = {
+const struct JARBookRelationships JARBookRelationships = {
 	.annotations = @"annotations",
 	.authors = @"authors",
 	.cover = @"cover",
@@ -15,10 +15,10 @@ const struct DRGBookRelationships DRGBookRelationships = {
 	.tags = @"tags",
 };
 
-@implementation DRGBookID
+@implementation JARBookID
 @end
 
-@implementation _DRGBook
+@implementation _JARBook
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -34,8 +34,8 @@ const struct DRGBookRelationships DRGBookRelationships = {
 	return [NSEntityDescription entityForName:@"Book" inManagedObjectContext:moc_];
 }
 
-- (DRGBookID*)objectID {
-	return (DRGBookID*)[super objectID];
+- (JARBookID*)objectID {
+	return (JARBookID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

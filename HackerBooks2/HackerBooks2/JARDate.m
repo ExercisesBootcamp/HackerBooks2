@@ -1,16 +1,16 @@
-#import "DRGDate.h"
+#import "JARDate.h"
 
-@interface DRGDate ()
+@interface JARDate ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGDate
+@implementation JARDate
 
 + (instancetype)dateWithContext:(NSManagedObjectContext *)context {
     
-    DRGDate *nDate = [DRGDate insertInManagedObjectContext:context];
+    JARDate *nDate = [JARDate insertInManagedObjectContext:context];
     
     nDate.creation = [NSDate date];
     nDate.modification = nDate.creation;

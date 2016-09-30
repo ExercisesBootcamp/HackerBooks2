@@ -1,6 +1,6 @@
-#import "_DRGBook.h"
+#import "_JARBook.h"
 
-@interface DRGBook : _DRGBook {}
+@interface JARBook : _JARBook {}
 // Custom logic goes here.
 
 + (instancetype)bookFromDictionary:(NSDictionary *)JSON

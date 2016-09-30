@@ -1,16 +1,16 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGPdf.m instead.
+// Make changes to JARPdf.m instead.
 
-#import "_DRGPdf.h"
+#import "_JARPdf.h"
 
-const struct DRGPdfRelationships DRGPdfRelationships = {
+const struct JARPdfRelationships JARPdfRelationships = {
 	.book = @"book",
 };
 
-@implementation DRGPdfID
+@implementation JARPdfID
 @end
 
-@implementation _DRGPdf
+@implementation _JARPdf
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -26,8 +26,8 @@ const struct DRGPdfRelationships DRGPdfRelationships = {
 	return [NSEntityDescription entityForName:@"Pdf" inManagedObjectContext:moc_];
 }
 
-- (DRGPdfID*)objectID {
-	return (DRGPdfID*)[super objectID];
+- (JARPdfID*)objectID {
+	return (JARPdfID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {

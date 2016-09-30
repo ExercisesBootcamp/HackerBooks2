@@ -1,8 +1,8 @@
-#import "_DRGCover.h"
+#import "_JARCover.h"
 
 @import UIKit.UIImage;
 
-@interface DRGCover : _DRGCover {}
+@interface JARCover : _JARCover {}
 // Custom logic goes here.
 
 + (instancetype)coverForURL:(NSURL *)aURL withContext:(NSManagedObjectContext *)context;

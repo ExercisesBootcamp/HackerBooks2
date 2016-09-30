@@ -1,8 +1,8 @@
-#import "_DRGPhoto.h"
+#import "_JARPhoto.h"
 
 @import UIKit.UIImage;
 
-@interface DRGPhoto : _DRGPhoto {}
+@interface JARPhoto : _JARPhoto {}
 // Custom logic goes here.
 
 @property (nonatomic, strong) UIImage *image;

@@ -1,30 +1,30 @@
-#import "DRGTag.h"
-#import "DRGLabel.h"
-#import "DRGBook.h"
+#import "JARTag.h"
+#import "JARLabel.h"
+#import "JARBook.h"
 
-@interface DRGTag ()
+@interface JARTag ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGTag
+@implementation JARTag
 
 // Custom logic goes here.
 + (instancetype)tagNamed:(NSString *)name
-                  ofBook:(DRGBook *)book
+                  ofBook:(JARBook *)book
              withContext:(NSManagedObjectContext *)context {
     
-    DRGTag *tag = [DRGTag insertInManagedObjectContext:context];
-    tag.label = [DRGLabel labelNamed:name withContext:context];
+    JARTag *tag = [JARTag insertInManagedObjectContext:context];
+    tag.label = [JARLabel labelNamed:name withContext:context];
     tag.book = book;
     
     return tag;
 }
 
-+ (DRGTag *)favoriteTagForBook:(DRGBook *)aBook {
-    for (DRGTag *tag in aBook.tags) {
-        DRGLabel *label = tag.label;
++ (JARTag *)favoriteTagForBook:(JARBook *)aBook {
+    for (JARTag *tag in aBook.tags) {
+        JARLabel *label = tag.label;
         if ([label.name isEqualToString:FAVORITE_LABEL]) {
             // If YES, untagged it
             return tag;

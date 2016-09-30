@@ -1,18 +1,18 @@
-#import "DRGCover.h"
+#import "JARCover.h"
 
-@interface DRGCover ()
+@interface JARCover ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGCover
+@implementation JARCover
 
 // Custom logic goes here.
 
 + (instancetype)coverForURL:(NSURL *)aURL withContext:(NSManagedObjectContext *)context {
 
-    DRGCover *cover = [DRGCover insertInManagedObjectContext:context];
+    JARCover *cover = [JARCover insertInManagedObjectContext:context];
     cover.urlString = [aURL absoluteString];
     cover.data = nil;
     

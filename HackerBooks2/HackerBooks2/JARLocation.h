@@ -1,6 +1,6 @@
-#import "_DRGLocation.h"
+#import "_JARLocation.h"
 
-@interface DRGLocation : _DRGLocation {}
+@interface JARLocation : _JARLocation {}
 // Custom logic goes here.
 
 + (instancetype)locationWithLatitude:(double)latitude

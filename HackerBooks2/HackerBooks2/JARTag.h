@@ -1,12 +1,12 @@
-#import "_DRGTag.h"
+#import "_JARTag.h"
 
-@interface DRGTag : _DRGTag {}
+@interface JARTag : _JARTag {}
 // Custom logic goes here.
 
 + (instancetype)tagNamed:(NSString *)name
-                  ofBook:(DRGBook *)book
+                  ofBook:(JARBook *)book
              withContext:(NSManagedObjectContext *)context;
 
-+ (DRGTag *)favoriteTagForBook:(DRGBook *)aBook;
++ (JARTag *)favoriteTagForBook:(JARBook *)aBook;
 
 @end

@@ -1,12 +1,12 @@
-#import "_DRGAnnotation.h"
+#import "_JARAnnotation.h"
 
 @import  UIKit;
 
-@class DRGBook;
+@class JARBook;
 
-@interface DRGAnnotation : _DRGAnnotation {}
+@interface JARAnnotation : _JARAnnotation {}
 
-+ (instancetype)annotationOnBook:(DRGBook *)aBook
++ (instancetype)annotationOnBook:(JARBook *)aBook
                           titled:(NSString *)title
                         withText:(NSString *)text
                            photo:(UIImage *)image

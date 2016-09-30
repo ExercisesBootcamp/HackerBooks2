@@ -1,28 +1,28 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGLocation.h instead.
+// Make changes to JARLocation.h instead.
 
 @import CoreData;
-#import "DRGLibraryBaseClass.h"
+#import "JARLibraryBaseClass.h"
 
-extern const struct DRGLocationAttributes {
+extern const struct JARLocationAttributes {
 	__unsafe_unretained NSString *latitude;
 	__unsafe_unretained NSString *longitude;
-} DRGLocationAttributes;
+} JARLocationAttributes;
 
-extern const struct DRGLocationRelationships {
+extern const struct JARLocationRelationships {
 	__unsafe_unretained NSString *annotation;
-} DRGLocationRelationships;
+} JARLocationRelationships;
 
-@class DRGAnnotation;
+@class JARAnnotation;
 
-@interface DRGLocationID : NSManagedObjectID {}
+@interface JARLocationID : NSManagedObjectID {}
 @end
 
-@interface _DRGLocation : DRGLibraryBaseClass {}
+@interface _JARLocation : JARLibraryBaseClass {}
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
 + (NSString*)entityName;
 + (NSEntityDescription*)entityInManagedObjectContext:(NSManagedObjectContext*)moc_;
-@property (nonatomic, readonly, strong) DRGLocationID* objectID;
+@property (nonatomic, readonly, strong) JARLocationID* objectID;
 
 @property (nonatomic, strong) NSNumber* latitude;
 
@@ -46,15 +46,15 @@ extern const struct DRGLocationRelationships {
 
 @end
 
-@interface _DRGLocation (AnnotationCoreDataGeneratedAccessors)
+@interface _JARLocation (AnnotationCoreDataGeneratedAccessors)
 - (void)addAnnotation:(NSSet*)value_;
 - (void)removeAnnotation:(NSSet*)value_;
-- (void)addAnnotationObject:(DRGAnnotation*)value_;
-- (void)removeAnnotationObject:(DRGAnnotation*)value_;
+- (void)addAnnotationObject:(JARAnnotation*)value_;
+- (void)removeAnnotationObject:(JARAnnotation*)value_;
 
 @end
 
-@interface _DRGLocation (CoreDataGeneratedPrimitiveAccessors)
+@interface _JARLocation (CoreDataGeneratedPrimitiveAccessors)
 
 - (NSNumber*)primitiveLatitude;
 - (void)setPrimitiveLatitude:(NSNumber*)value;

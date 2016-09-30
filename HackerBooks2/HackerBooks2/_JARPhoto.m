@@ -1,20 +1,20 @@
 // DO NOT EDIT. This file is machine-generated and constantly overwritten.
-// Make changes to DRGPhoto.m instead.
+// Make changes to JARPhoto.m instead.
 
-#import "_DRGPhoto.h"
+#import "_JARPhoto.h"
 
-const struct DRGPhotoAttributes DRGPhotoAttributes = {
+const struct JARPhotoAttributes JARPhotoAttributes = {
 	.photoData = @"photoData",
 };
 
-const struct DRGPhotoRelationships DRGPhotoRelationships = {
+const struct JARPhotoRelationships JARPhotoRelationships = {
 	.annotation = @"annotation",
 };
 
-@implementation DRGPhotoID
+@implementation JARPhotoID
 @end
 
-@implementation _DRGPhoto
+@implementation _JARPhoto
 
 + (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
 	NSParameterAssert(moc_);
@@ -30,8 +30,8 @@ const struct DRGPhotoRelationships DRGPhotoRelationships = {
 	return [NSEntityDescription entityForName:@"Photo" inManagedObjectContext:moc_];
 }
 
-- (DRGPhotoID*)objectID {
-	return (DRGPhotoID*)[super objectID];
+- (JARPhotoID*)objectID {
+	return (JARPhotoID*)[super objectID];
 }
 
 + (NSSet*)keyPathsForValuesAffectingValueForKey:(NSString*)key {
