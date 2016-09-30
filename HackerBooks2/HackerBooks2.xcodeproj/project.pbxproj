@@ -41,6 +41,8 @@
 		AAB411481D9EF785006E7E29 /* _JARWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4113C1D9EF785006E7E29 /* _JARWriter.m */; };
 		AAB4114D1D9EF8D6006E7E29 /* JARAnnotationViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4114B1D9EF8D6006E7E29 /* JARAnnotationViewCell.m */; };
 		AAB4114E1D9EF8D6006E7E29 /* JARAnnotationViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB4114C1D9EF8D6006E7E29 /* JARAnnotationViewCell.xib */; };
+		AAB411521D9F0A47006E7E29 /* JARViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411511D9F0A47006E7E29 /* JARViewController+Navigation.m */; };
+		AAB411551D9F0BDF006E7E29 /* JARNSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411541D9F0BDF006E7E29 /* JARNSString+Validation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +115,10 @@
 		AAB4114A1D9EF8D6006E7E29 /* JARAnnotationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARAnnotationViewCell.h; sourceTree = "<group>"; };
 		AAB4114B1D9EF8D6006E7E29 /* JARAnnotationViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARAnnotationViewCell.m; sourceTree = "<group>"; };
 		AAB4114C1D9EF8D6006E7E29 /* JARAnnotationViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JARAnnotationViewCell.xib; sourceTree = "<group>"; };
+		AAB411501D9F0A47006E7E29 /* JARViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JARViewController+Navigation.h"; sourceTree = "<group>"; };
+		AAB411511D9F0A47006E7E29 /* JARViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JARViewController+Navigation.m"; sourceTree = "<group>"; };
+		AAB411531D9F0BDF006E7E29 /* JARNSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JARNSString+Validation.h"; sourceTree = "<group>"; };
+		AAB411541D9F0BDF006E7E29 /* JARNSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JARNSString+Validation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +185,10 @@
 				AA2F4ECC1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m */,
 				AAB410D41D9EDDB5006E7E29 /* JARDownloadHelper.h */,
 				AAB410D51D9EDDB5006E7E29 /* JARDownloadHelper.m */,
+				AAB411501D9F0A47006E7E29 /* JARViewController+Navigation.h */,
+				AAB411511D9F0A47006E7E29 /* JARViewController+Navigation.m */,
+				AAB411531D9F0BDF006E7E29 /* JARNSString+Validation.h */,
+				AAB411541D9F0BDF006E7E29 /* JARNSString+Validation.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -343,6 +353,7 @@
 				AAB4114D1D9EF8D6006E7E29 /* JARAnnotationViewCell.m in Sources */,
 				AAB410DA1D9EDEC4006E7E29 /* Library.xcdatamodeld in Sources */,
 				AAB411231D9EF765006E7E29 /* JARTag.m in Sources */,
+				AAB411521D9F0A47006E7E29 /* JARViewController+Navigation.m in Sources */,
 				AAB411481D9EF785006E7E29 /* _JARWriter.m in Sources */,
 				AAB4111A1D9EF765006E7E29 /* JARAnnotation.m in Sources */,
 				AA2F4ECF1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m in Sources */,
@@ -360,6 +371,7 @@
 				AA2F4ECE1D9EDAA30049F6C0 /* AGTCoreDataStack.m in Sources */,
 				AAB411201D9EF765006E7E29 /* JARLocation.m in Sources */,
 				AAB4113D1D9EF785006E7E29 /* _JARAnnotation.m in Sources */,
+				AAB411551D9F0BDF006E7E29 /* JARNSString+Validation.m in Sources */,
 				AA2F4ECD1D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m in Sources */,
 				AAB411221D9EF765006E7E29 /* JARPhoto.m in Sources */,
 				AAB4111E1D9EF765006E7E29 /* JARDate.m in Sources */,

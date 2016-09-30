@@ -3,7 +3,7 @@
 #import "JARPhoto.h"
 #import "JARDate.h"
 #import "JARLocation.h"
-#import "NSString+Validation.h"
+#import "JARNSString+Validation.h"
 
 @interface JARAnnotation ()
 

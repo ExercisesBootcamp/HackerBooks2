@@ -1,5 +1,5 @@
-#import "_DRGBookResource.h"
+#import "_JARBookResource.h"
 
-@interface DRGBookResource : _DRGBookResource {}
+@interface JARBookResource : _JARBookResource {}
 // Custom logic goes here.
 @end

@@ -11,7 +11,7 @@
 
 #import "AGTCoreDataStack.h"
 #import "JARDownloadHelper.h"
-#import "UIViewController+Navigation.h"
+#import "JARViewController+Navigation.h"
 
 #import "JARBook.h"
 #import "JARTag.h"
