@@ -9,11 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA2F4EAB1D9ED6030049F6C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4EAA1D9ED6030049F6C0 /* main.m */; };
 		AA2F4EAE1D9ED6040049F6C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4EAD1D9ED6040049F6C0 /* AppDelegate.m */; };
-		AA2F4EB11D9ED6040049F6C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4EB01D9ED6040049F6C0 /* ViewController.m */; };
-		AA2F4EB41D9ED6040049F6C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F4EB21D9ED6040049F6C0 /* Main.storyboard */; };
-		AA2F4EB71D9ED6040049F6C0 /* HackerBooks2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4EB51D9ED6040049F6C0 /* HackerBooks2.xcdatamodeld */; };
 		AA2F4EB91D9ED6040049F6C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2F4EB81D9ED6040049F6C0 /* Assets.xcassets */; };
-		AA2F4EBC1D9ED6040049F6C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F4EBA1D9ED6040049F6C0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,12 +17,7 @@
 		AA2F4EAA1D9ED6030049F6C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA2F4EAC1D9ED6040049F6C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA2F4EAD1D9ED6040049F6C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA2F4EAF1D9ED6040049F6C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA2F4EB01D9ED6040049F6C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AA2F4EB31D9ED6040049F6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA2F4EB61D9ED6040049F6C0 /* HackerBooks2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackerBooks2.xcdatamodel; sourceTree = "<group>"; };
 		AA2F4EB81D9ED6040049F6C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA2F4EBB1D9ED6040049F6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA2F4EBD1D9ED6040049F6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,13 +53,8 @@
 			children = (
 				AA2F4EAC1D9ED6040049F6C0 /* AppDelegate.h */,
 				AA2F4EAD1D9ED6040049F6C0 /* AppDelegate.m */,
-				AA2F4EAF1D9ED6040049F6C0 /* ViewController.h */,
-				AA2F4EB01D9ED6040049F6C0 /* ViewController.m */,
-				AA2F4EB21D9ED6040049F6C0 /* Main.storyboard */,
 				AA2F4EB81D9ED6040049F6C0 /* Assets.xcassets */,
-				AA2F4EBA1D9ED6040049F6C0 /* LaunchScreen.storyboard */,
 				AA2F4EBD1D9ED6040049F6C0 /* Info.plist */,
-				AA2F4EB51D9ED6040049F6C0 /* HackerBooks2.xcdatamodeld */,
 				AA2F4EA91D9ED6030049F6C0 /* Supporting Files */,
 			);
 			path = HackerBooks2;
@@ -140,9 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA2F4EBC1D9ED6040049F6C0 /* LaunchScreen.storyboard in Resources */,
 				AA2F4EB91D9ED6040049F6C0 /* Assets.xcassets in Resources */,
-				AA2F4EB41D9ED6040049F6C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,33 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA2F4EB11D9ED6040049F6C0 /* ViewController.m in Sources */,
 				AA2F4EAE1D9ED6040049F6C0 /* AppDelegate.m in Sources */,
 				AA2F4EAB1D9ED6030049F6C0 /* main.m in Sources */,
-				AA2F4EB71D9ED6040049F6C0 /* HackerBooks2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AA2F4EB21D9ED6040049F6C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA2F4EB31D9ED6040049F6C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AA2F4EBA1D9ED6040049F6C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA2F4EBB1D9ED6040049F6C0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AA2F4EBE1D9ED6040049F6C0 /* Debug */ = {
@@ -278,6 +241,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juarru.HackerBooks2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -289,6 +253,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juarru.HackerBooks2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -313,19 +278,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		AA2F4EB51D9ED6040049F6C0 /* HackerBooks2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AA2F4EB61D9ED6040049F6C0 /* HackerBooks2.xcdatamodel */,
-			);
-			currentVersion = AA2F4EB61D9ED6040049F6C0 /* HackerBooks2.xcdatamodel */;
-			path = HackerBooks2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = AA2F4E9E1D9ED6030049F6C0 /* Project object */;
 }
