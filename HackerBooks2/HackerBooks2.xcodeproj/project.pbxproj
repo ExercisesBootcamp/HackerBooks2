@@ -16,6 +16,29 @@
 		AAB410D61D9EDDB5006E7E29 /* JARDownloadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB410D51D9EDDB5006E7E29 /* JARDownloadHelper.m */; };
 		AAB410DA1D9EDEC4006E7E29 /* Library.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAB410D81D9EDEC4006E7E29 /* Library.xcdatamodeld */; };
 		AAB410DD1D9EEADB006E7E29 /* JARLibraryBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB410DC1D9EEADB006E7E29 /* JARLibraryBaseClass.m */; };
+		AAB4111A1D9EF765006E7E29 /* JARAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411051D9EF765006E7E29 /* JARAnnotation.m */; };
+		AAB4111B1D9EF765006E7E29 /* JARAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411071D9EF765006E7E29 /* JARAuthor.m */; };
+		AAB4111C1D9EF765006E7E29 /* JARBook.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411091D9EF765006E7E29 /* JARBook.m */; };
+		AAB4111D1D9EF765006E7E29 /* JARCover.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4110B1D9EF765006E7E29 /* JARCover.m */; };
+		AAB4111E1D9EF765006E7E29 /* JARDate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4110D1D9EF765006E7E29 /* JARDate.m */; };
+		AAB4111F1D9EF765006E7E29 /* JARLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4110F1D9EF765006E7E29 /* JARLabel.m */; };
+		AAB411201D9EF765006E7E29 /* JARLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411111D9EF765006E7E29 /* JARLocation.m */; };
+		AAB411211D9EF765006E7E29 /* JARPdf.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411131D9EF765006E7E29 /* JARPdf.m */; };
+		AAB411221D9EF765006E7E29 /* JARPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411151D9EF765006E7E29 /* JARPhoto.m */; };
+		AAB411231D9EF765006E7E29 /* JARTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411171D9EF765006E7E29 /* JARTag.m */; };
+		AAB411241D9EF765006E7E29 /* JARWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411191D9EF765006E7E29 /* JARWriter.m */; };
+		AAB4113D1D9EF785006E7E29 /* _JARAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411261D9EF785006E7E29 /* _JARAnnotation.m */; };
+		AAB4113E1D9EF785006E7E29 /* _JARAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411281D9EF785006E7E29 /* _JARAuthor.m */; };
+		AAB4113F1D9EF785006E7E29 /* _JARBook.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4112A1D9EF785006E7E29 /* _JARBook.m */; };
+		AAB411401D9EF785006E7E29 /* _JARBookResource.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4112C1D9EF785006E7E29 /* _JARBookResource.m */; };
+		AAB411411D9EF785006E7E29 /* _JARCover.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4112E1D9EF785006E7E29 /* _JARCover.m */; };
+		AAB411421D9EF785006E7E29 /* _JARDate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411301D9EF785006E7E29 /* _JARDate.m */; };
+		AAB411431D9EF785006E7E29 /* _JARLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411321D9EF785006E7E29 /* _JARLabel.m */; };
+		AAB411441D9EF785006E7E29 /* _JARLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411341D9EF785006E7E29 /* _JARLocation.m */; };
+		AAB411451D9EF785006E7E29 /* _JARPdf.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411361D9EF785006E7E29 /* _JARPdf.m */; };
+		AAB411461D9EF785006E7E29 /* _JARPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411381D9EF785006E7E29 /* _JARPhoto.m */; };
+		AAB411471D9EF785006E7E29 /* _JARTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4113A1D9EF785006E7E29 /* _JARTag.m */; };
+		AAB411481D9EF785006E7E29 /* _JARWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4113C1D9EF785006E7E29 /* _JARWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +62,52 @@
 		AAB410D91D9EDEC4006E7E29 /* Library.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Library.xcdatamodel; sourceTree = "<group>"; };
 		AAB410DB1D9EEADB006E7E29 /* JARLibraryBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARLibraryBaseClass.h; sourceTree = "<group>"; };
 		AAB410DC1D9EEADB006E7E29 /* JARLibraryBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARLibraryBaseClass.m; sourceTree = "<group>"; };
+		AAB411041D9EF765006E7E29 /* JARAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARAnnotation.h; sourceTree = "<group>"; };
+		AAB411051D9EF765006E7E29 /* JARAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARAnnotation.m; sourceTree = "<group>"; };
+		AAB411061D9EF765006E7E29 /* JARAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARAuthor.h; sourceTree = "<group>"; };
+		AAB411071D9EF765006E7E29 /* JARAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARAuthor.m; sourceTree = "<group>"; };
+		AAB411081D9EF765006E7E29 /* JARBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARBook.h; sourceTree = "<group>"; };
+		AAB411091D9EF765006E7E29 /* JARBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARBook.m; sourceTree = "<group>"; };
+		AAB4110A1D9EF765006E7E29 /* JARCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARCover.h; sourceTree = "<group>"; };
+		AAB4110B1D9EF765006E7E29 /* JARCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARCover.m; sourceTree = "<group>"; };
+		AAB4110C1D9EF765006E7E29 /* JARDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARDate.h; sourceTree = "<group>"; };
+		AAB4110D1D9EF765006E7E29 /* JARDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARDate.m; sourceTree = "<group>"; };
+		AAB4110E1D9EF765006E7E29 /* JARLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARLabel.h; sourceTree = "<group>"; };
+		AAB4110F1D9EF765006E7E29 /* JARLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARLabel.m; sourceTree = "<group>"; };
+		AAB411101D9EF765006E7E29 /* JARLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARLocation.h; sourceTree = "<group>"; };
+		AAB411111D9EF765006E7E29 /* JARLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARLocation.m; sourceTree = "<group>"; };
+		AAB411121D9EF765006E7E29 /* JARPdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARPdf.h; sourceTree = "<group>"; };
+		AAB411131D9EF765006E7E29 /* JARPdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARPdf.m; sourceTree = "<group>"; };
+		AAB411141D9EF765006E7E29 /* JARPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARPhoto.h; sourceTree = "<group>"; };
+		AAB411151D9EF765006E7E29 /* JARPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARPhoto.m; sourceTree = "<group>"; };
+		AAB411161D9EF765006E7E29 /* JARTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARTag.h; sourceTree = "<group>"; };
+		AAB411171D9EF765006E7E29 /* JARTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARTag.m; sourceTree = "<group>"; };
+		AAB411181D9EF765006E7E29 /* JARWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARWriter.h; sourceTree = "<group>"; };
+		AAB411191D9EF765006E7E29 /* JARWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARWriter.m; sourceTree = "<group>"; };
+		AAB411251D9EF785006E7E29 /* _JARAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARAnnotation.h; sourceTree = "<group>"; };
+		AAB411261D9EF785006E7E29 /* _JARAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARAnnotation.m; sourceTree = "<group>"; };
+		AAB411271D9EF785006E7E29 /* _JARAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARAuthor.h; sourceTree = "<group>"; };
+		AAB411281D9EF785006E7E29 /* _JARAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARAuthor.m; sourceTree = "<group>"; };
+		AAB411291D9EF785006E7E29 /* _JARBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARBook.h; sourceTree = "<group>"; };
+		AAB4112A1D9EF785006E7E29 /* _JARBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARBook.m; sourceTree = "<group>"; };
+		AAB4112B1D9EF785006E7E29 /* _JARBookResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARBookResource.h; sourceTree = "<group>"; };
+		AAB4112C1D9EF785006E7E29 /* _JARBookResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARBookResource.m; sourceTree = "<group>"; };
+		AAB4112D1D9EF785006E7E29 /* _JARCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARCover.h; sourceTree = "<group>"; };
+		AAB4112E1D9EF785006E7E29 /* _JARCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARCover.m; sourceTree = "<group>"; };
+		AAB4112F1D9EF785006E7E29 /* _JARDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARDate.h; sourceTree = "<group>"; };
+		AAB411301D9EF785006E7E29 /* _JARDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARDate.m; sourceTree = "<group>"; };
+		AAB411311D9EF785006E7E29 /* _JARLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARLabel.h; sourceTree = "<group>"; };
+		AAB411321D9EF785006E7E29 /* _JARLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARLabel.m; sourceTree = "<group>"; };
+		AAB411331D9EF785006E7E29 /* _JARLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARLocation.h; sourceTree = "<group>"; };
+		AAB411341D9EF785006E7E29 /* _JARLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARLocation.m; sourceTree = "<group>"; };
+		AAB411351D9EF785006E7E29 /* _JARPdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARPdf.h; sourceTree = "<group>"; };
+		AAB411361D9EF785006E7E29 /* _JARPdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARPdf.m; sourceTree = "<group>"; };
+		AAB411371D9EF785006E7E29 /* _JARPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARPhoto.h; sourceTree = "<group>"; };
+		AAB411381D9EF785006E7E29 /* _JARPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARPhoto.m; sourceTree = "<group>"; };
+		AAB411391D9EF785006E7E29 /* _JARTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARTag.h; sourceTree = "<group>"; };
+		AAB4113A1D9EF785006E7E29 /* _JARTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARTag.m; sourceTree = "<group>"; };
+		AAB4113B1D9EF785006E7E29 /* _JARWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JARWriter.h; sourceTree = "<group>"; };
+		AAB4113C1D9EF785006E7E29 /* _JARWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _JARWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +180,73 @@
 		AAB410D71D9EDEAC006E7E29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AAB410DF1D9EF065006E7E29 /* Human */,
+				AAB410DE1D9EF05B006E7E29 /* Machine */,
 				AAB410D81D9EDEC4006E7E29 /* Library.xcdatamodeld */,
 				AAB410DB1D9EEADB006E7E29 /* JARLibraryBaseClass.h */,
 				AAB410DC1D9EEADB006E7E29 /* JARLibraryBaseClass.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		AAB410DE1D9EF05B006E7E29 /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				AAB411251D9EF785006E7E29 /* _JARAnnotation.h */,
+				AAB411261D9EF785006E7E29 /* _JARAnnotation.m */,
+				AAB411271D9EF785006E7E29 /* _JARAuthor.h */,
+				AAB411281D9EF785006E7E29 /* _JARAuthor.m */,
+				AAB411291D9EF785006E7E29 /* _JARBook.h */,
+				AAB4112A1D9EF785006E7E29 /* _JARBook.m */,
+				AAB4112B1D9EF785006E7E29 /* _JARBookResource.h */,
+				AAB4112C1D9EF785006E7E29 /* _JARBookResource.m */,
+				AAB4112D1D9EF785006E7E29 /* _JARCover.h */,
+				AAB4112E1D9EF785006E7E29 /* _JARCover.m */,
+				AAB4112F1D9EF785006E7E29 /* _JARDate.h */,
+				AAB411301D9EF785006E7E29 /* _JARDate.m */,
+				AAB411311D9EF785006E7E29 /* _JARLabel.h */,
+				AAB411321D9EF785006E7E29 /* _JARLabel.m */,
+				AAB411331D9EF785006E7E29 /* _JARLocation.h */,
+				AAB411341D9EF785006E7E29 /* _JARLocation.m */,
+				AAB411351D9EF785006E7E29 /* _JARPdf.h */,
+				AAB411361D9EF785006E7E29 /* _JARPdf.m */,
+				AAB411371D9EF785006E7E29 /* _JARPhoto.h */,
+				AAB411381D9EF785006E7E29 /* _JARPhoto.m */,
+				AAB411391D9EF785006E7E29 /* _JARTag.h */,
+				AAB4113A1D9EF785006E7E29 /* _JARTag.m */,
+				AAB4113B1D9EF785006E7E29 /* _JARWriter.h */,
+				AAB4113C1D9EF785006E7E29 /* _JARWriter.m */,
+			);
+			name = Machine;
+			sourceTree = "<group>";
+		};
+		AAB410DF1D9EF065006E7E29 /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				AAB411041D9EF765006E7E29 /* JARAnnotation.h */,
+				AAB411051D9EF765006E7E29 /* JARAnnotation.m */,
+				AAB411061D9EF765006E7E29 /* JARAuthor.h */,
+				AAB411071D9EF765006E7E29 /* JARAuthor.m */,
+				AAB411081D9EF765006E7E29 /* JARBook.h */,
+				AAB411091D9EF765006E7E29 /* JARBook.m */,
+				AAB4110A1D9EF765006E7E29 /* JARCover.h */,
+				AAB4110B1D9EF765006E7E29 /* JARCover.m */,
+				AAB4110C1D9EF765006E7E29 /* JARDate.h */,
+				AAB4110D1D9EF765006E7E29 /* JARDate.m */,
+				AAB4110E1D9EF765006E7E29 /* JARLabel.h */,
+				AAB4110F1D9EF765006E7E29 /* JARLabel.m */,
+				AAB411101D9EF765006E7E29 /* JARLocation.h */,
+				AAB411111D9EF765006E7E29 /* JARLocation.m */,
+				AAB411121D9EF765006E7E29 /* JARPdf.h */,
+				AAB411131D9EF765006E7E29 /* JARPdf.m */,
+				AAB411141D9EF765006E7E29 /* JARPhoto.h */,
+				AAB411151D9EF765006E7E29 /* JARPhoto.m */,
+				AAB411161D9EF765006E7E29 /* JARTag.h */,
+				AAB411171D9EF765006E7E29 /* JARTag.m */,
+				AAB411181D9EF765006E7E29 /* JARWriter.h */,
+				AAB411191D9EF765006E7E29 /* JARWriter.m */,
+			);
+			name = Human;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,13 +318,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB4113F1D9EF785006E7E29 /* _JARBook.m in Sources */,
+				AAB411411D9EF785006E7E29 /* _JARCover.m in Sources */,
+				AAB411451D9EF785006E7E29 /* _JARPdf.m in Sources */,
+				AAB411441D9EF785006E7E29 /* _JARLocation.m in Sources */,
 				AA2F4EAE1D9ED6040049F6C0 /* AppDelegate.m in Sources */,
 				AAB410DA1D9EDEC4006E7E29 /* Library.xcdatamodeld in Sources */,
+				AAB411231D9EF765006E7E29 /* JARTag.m in Sources */,
+				AAB411481D9EF785006E7E29 /* _JARWriter.m in Sources */,
+				AAB4111A1D9EF765006E7E29 /* JARAnnotation.m in Sources */,
 				AA2F4ECF1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m in Sources */,
+				AAB4111F1D9EF765006E7E29 /* JARLabel.m in Sources */,
+				AAB411401D9EF785006E7E29 /* _JARBookResource.m in Sources */,
+				AAB411461D9EF785006E7E29 /* _JARPhoto.m in Sources */,
+				AAB4111B1D9EF765006E7E29 /* JARAuthor.m in Sources */,
+				AAB4111D1D9EF765006E7E29 /* JARCover.m in Sources */,
+				AAB4111C1D9EF765006E7E29 /* JARBook.m in Sources */,
 				AAB410DD1D9EEADB006E7E29 /* JARLibraryBaseClass.m in Sources */,
+				AAB411471D9EF785006E7E29 /* _JARTag.m in Sources */,
 				AA2F4EAB1D9ED6030049F6C0 /* main.m in Sources */,
+				AAB411421D9EF785006E7E29 /* _JARDate.m in Sources */,
+				AAB411211D9EF765006E7E29 /* JARPdf.m in Sources */,
 				AA2F4ECE1D9EDAA30049F6C0 /* AGTCoreDataStack.m in Sources */,
+				AAB411201D9EF765006E7E29 /* JARLocation.m in Sources */,
+				AAB4113D1D9EF785006E7E29 /* _JARAnnotation.m in Sources */,
 				AA2F4ECD1D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m in Sources */,
+				AAB411221D9EF765006E7E29 /* JARPhoto.m in Sources */,
+				AAB4111E1D9EF765006E7E29 /* JARDate.m in Sources */,
+				AAB4113E1D9EF785006E7E29 /* _JARAuthor.m in Sources */,
+				AAB411241D9EF765006E7E29 /* JARWriter.m in Sources */,
+				AAB411431D9EF785006E7E29 /* _JARLabel.m in Sources */,
 				AAB410D61D9EDDB5006E7E29 /* JARDownloadHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
