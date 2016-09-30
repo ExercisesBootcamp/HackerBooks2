@@ -10,6 +10,9 @@
 		AA2F4EAB1D9ED6030049F6C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4EAA1D9ED6030049F6C0 /* main.m */; };
 		AA2F4EAE1D9ED6040049F6C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4EAD1D9ED6040049F6C0 /* AppDelegate.m */; };
 		AA2F4EB91D9ED6040049F6C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2F4EB81D9ED6040049F6C0 /* Assets.xcassets */; };
+		AA2F4ECD1D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4EC81D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m */; };
+		AA2F4ECE1D9EDAA30049F6C0 /* AGTCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4ECA1D9EDAA30049F6C0 /* AGTCoreDataStack.m */; };
+		AA2F4ECF1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F4ECC1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,15 @@
 		AA2F4EAD1D9ED6040049F6C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AA2F4EB81D9ED6040049F6C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA2F4EBD1D9ED6040049F6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2F4EC31D9ED93C0049F6C0 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		AA2F4EC41D9ED9760049F6C0 /* NotificationKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationKeys.h; sourceTree = "<group>"; };
+		AA2F4EC51D9ED9B50049F6C0 /* ErrorDomains.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorDomains.h; sourceTree = "<group>"; };
+		AA2F4EC71D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataCollectionViewController.h; sourceTree = "<group>"; };
+		AA2F4EC81D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataCollectionViewController.m; sourceTree = "<group>"; };
+		AA2F4EC91D9EDAA30049F6C0 /* AGTCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataStack.h; sourceTree = "<group>"; };
+		AA2F4ECA1D9EDAA30049F6C0 /* AGTCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataStack.m; sourceTree = "<group>"; };
+		AA2F4ECB1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTCoreDataTableViewController.h; sourceTree = "<group>"; };
+		AA2F4ECC1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTCoreDataTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,11 +63,15 @@
 		AA2F4EA81D9ED6030049F6C0 /* HackerBooks2 */ = {
 			isa = PBXGroup;
 			children = (
+				AA2F4EC61D9EDA540049F6C0 /* Controllers */,
 				AA2F4EAC1D9ED6040049F6C0 /* AppDelegate.h */,
 				AA2F4EAD1D9ED6040049F6C0 /* AppDelegate.m */,
 				AA2F4EB81D9ED6040049F6C0 /* Assets.xcassets */,
 				AA2F4EBD1D9ED6040049F6C0 /* Info.plist */,
 				AA2F4EA91D9ED6030049F6C0 /* Supporting Files */,
+				AA2F4EC31D9ED93C0049F6C0 /* Settings.h */,
+				AA2F4EC41D9ED9760049F6C0 /* NotificationKeys.h */,
+				AA2F4EC51D9ED9B50049F6C0 /* ErrorDomains.h */,
 			);
 			path = HackerBooks2;
 			sourceTree = "<group>";
@@ -66,6 +82,19 @@
 				AA2F4EAA1D9ED6030049F6C0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA2F4EC61D9EDA540049F6C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F4EC71D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.h */,
+				AA2F4EC81D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m */,
+				AA2F4EC91D9EDAA30049F6C0 /* AGTCoreDataStack.h */,
+				AA2F4ECA1D9EDAA30049F6C0 /* AGTCoreDataStack.m */,
+				AA2F4ECB1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.h */,
+				AA2F4ECC1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2F4EAE1D9ED6040049F6C0 /* AppDelegate.m in Sources */,
+				AA2F4ECF1D9EDAA30049F6C0 /* AGTCoreDataTableViewController.m in Sources */,
 				AA2F4EAB1D9ED6030049F6C0 /* main.m in Sources */,
+				AA2F4ECE1D9EDAA30049F6C0 /* AGTCoreDataStack.m in Sources */,
+				AA2F4ECD1D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
