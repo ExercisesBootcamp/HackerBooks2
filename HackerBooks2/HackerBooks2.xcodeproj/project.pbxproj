@@ -56,6 +56,8 @@
 		AAB411781D9FB1F9006E7E29 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411731D9FB1F9006E7E29 /* UIImage+Alpha.m */; };
 		AAB411791D9FB1F9006E7E29 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411751D9FB1F9006E7E29 /* UIImage+Resize.m */; };
 		AAB4117A1D9FB1F9006E7E29 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411771D9FB1F9006E7E29 /* UIImage+RoundedCorner.m */; };
+		AAB4117E1D9FB272006E7E29 /* JARSimplePDFVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4117C1D9FB272006E7E29 /* JARSimplePDFVC.m */; };
+		AAB4117F1D9FB272006E7E29 /* JARSimplePDFVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB4117D1D9FB272006E7E29 /* JARSimplePDFVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -155,6 +157,9 @@
 		AAB411751D9FB1F9006E7E29 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		AAB411761D9FB1F9006E7E29 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
 		AAB411771D9FB1F9006E7E29 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		AAB4117B1D9FB272006E7E29 /* JARSimplePDFVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARSimplePDFVC.h; sourceTree = "<group>"; };
+		AAB4117C1D9FB272006E7E29 /* JARSimplePDFVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARSimplePDFVC.m; sourceTree = "<group>"; };
+		AAB4117D1D9FB272006E7E29 /* JARSimplePDFVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JARSimplePDFVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +252,9 @@
 				AAB4116D1D9FAB6B006E7E29 /* JARBookDetailVC.h */,
 				AAB4116E1D9FAB6B006E7E29 /* JARBookDetailVC.m */,
 				AAB4116F1D9FAB6B006E7E29 /* JARBookDetailVC.xib */,
+				AAB4117B1D9FB272006E7E29 /* JARSimplePDFVC.h */,
+				AAB4117C1D9FB272006E7E29 /* JARSimplePDFVC.m */,
+				AAB4117D1D9FB272006E7E29 /* JARSimplePDFVC.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -404,6 +412,7 @@
 				AAB4114E1D9EF8D6006E7E29 /* JARAnnotationViewCell.xib in Resources */,
 				AAB411711D9FAB6B006E7E29 /* JARBookDetailVC.xib in Resources */,
 				AAB411621D9F11E5006E7E29 /* image_placeholder.png in Resources */,
+				AAB4117F1D9FB272006E7E29 /* JARSimplePDFVC.xib in Resources */,
 				AAB411611D9F11E5006E7E29 /* book-placeholder.jpg in Resources */,
 				AAB4115D1D9F0E36006E7E29 /* JARAnnotationDetailVC.xib in Resources */,
 			);
@@ -437,6 +446,7 @@
 				AAB411461D9EF785006E7E29 /* _JARPhoto.m in Sources */,
 				AAB411681D9FA962006E7E29 /* JARBookListVC.m in Sources */,
 				AAB4111B1D9EF765006E7E29 /* JARAuthor.m in Sources */,
+				AAB4117E1D9FB272006E7E29 /* JARSimplePDFVC.m in Sources */,
 				AAB4111D1D9EF765006E7E29 /* JARCover.m in Sources */,
 				AAB4111C1D9EF765006E7E29 /* JARBook.m in Sources */,
 				AAB410DD1D9EEADB006E7E29 /* JARLibraryBaseClass.m in Sources */,
