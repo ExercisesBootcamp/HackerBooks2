@@ -6,8 +6,28 @@
 //  Copyright © 2016 Juan Arillo Ruiz. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
-@interface JARBookDetailVC : UIViewController
+@class JARBook;
+@class JARBookDetailVCDelegate;
+
+#import "JARBookDetailVCDelegate.h"
+
+@interface JARBookDetailVC : UIViewController <UISplitViewControllerDelegate>
+
+@property (nonatomic, weak) id<JARBookDetailVCDelegate> delegate;
+@property (nonatomic, readonly) JARBook *book;
+
+#pragma mark - IBOutles
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImView;
+@property (weak, nonatomic) IBOutlet UILabel *tagsLbl;
+@property (weak, nonatomic) IBOutlet UIView *coverContainer;
+@property (weak, nonatomic) IBOutlet UIImageView *coverImView;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *coverActivityIndicator;
+@property (weak, nonatomic) IBOutlet UIButton *favoriteBtn;
+@property (weak, nonatomic) IBOutlet UIButton *readBtn;
+
+- (instancetype)initWithBook:(JARBook *)aBook;
+
 
 @end
