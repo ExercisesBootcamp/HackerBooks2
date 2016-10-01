@@ -53,6 +53,9 @@
 		AAB4116B1D9FA9F8006E7E29 /* JARSearchResultsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4116A1D9FA9F8006E7E29 /* JARSearchResultsVC.m */; };
 		AAB411701D9FAB6B006E7E29 /* JARBookDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4116E1D9FAB6B006E7E29 /* JARBookDetailVC.m */; };
 		AAB411711D9FAB6B006E7E29 /* JARBookDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB4116F1D9FAB6B006E7E29 /* JARBookDetailVC.xib */; };
+		AAB411781D9FB1F9006E7E29 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411731D9FB1F9006E7E29 /* UIImage+Alpha.m */; };
+		AAB411791D9FB1F9006E7E29 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411751D9FB1F9006E7E29 /* UIImage+Resize.m */; };
+		AAB4117A1D9FB1F9006E7E29 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411771D9FB1F9006E7E29 /* UIImage+RoundedCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,6 +149,12 @@
 		AAB4116D1D9FAB6B006E7E29 /* JARBookDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARBookDetailVC.h; sourceTree = "<group>"; };
 		AAB4116E1D9FAB6B006E7E29 /* JARBookDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARBookDetailVC.m; sourceTree = "<group>"; };
 		AAB4116F1D9FAB6B006E7E29 /* JARBookDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JARBookDetailVC.xib; sourceTree = "<group>"; };
+		AAB411721D9FB1F9006E7E29 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		AAB411731D9FB1F9006E7E29 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		AAB411741D9FB1F9006E7E29 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		AAB411751D9FB1F9006E7E29 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		AAB411761D9FB1F9006E7E29 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		AAB411771D9FB1F9006E7E29 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +214,12 @@
 		AA2F4EC61D9EDA540049F6C0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AAB411721D9FB1F9006E7E29 /* UIImage+Alpha.h */,
+				AAB411731D9FB1F9006E7E29 /* UIImage+Alpha.m */,
+				AAB411741D9FB1F9006E7E29 /* UIImage+Resize.h */,
+				AAB411751D9FB1F9006E7E29 /* UIImage+Resize.m */,
+				AAB411761D9FB1F9006E7E29 /* UIImage+RoundedCorner.h */,
+				AAB411771D9FB1F9006E7E29 /* UIImage+RoundedCorner.m */,
 				AA2F4EC71D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.h */,
 				AA2F4EC81D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m */,
 				AA2F4EC91D9EDAA30049F6C0 /* AGTCoreDataStack.h */,
@@ -427,12 +442,14 @@
 				AAB410DD1D9EEADB006E7E29 /* JARLibraryBaseClass.m in Sources */,
 				AAB411471D9EF785006E7E29 /* _JARTag.m in Sources */,
 				AA2F4EAB1D9ED6030049F6C0 /* main.m in Sources */,
+				AAB411781D9FB1F9006E7E29 /* UIImage+Alpha.m in Sources */,
 				AAB411421D9EF785006E7E29 /* _JARDate.m in Sources */,
 				AAB411211D9EF765006E7E29 /* JARPdf.m in Sources */,
 				AA2F4ECE1D9EDAA30049F6C0 /* AGTCoreDataStack.m in Sources */,
 				AAB411201D9EF765006E7E29 /* JARLocation.m in Sources */,
 				AAB4113D1D9EF785006E7E29 /* _JARAnnotation.m in Sources */,
 				AAB411551D9F0BDF006E7E29 /* JARNSString+Validation.m in Sources */,
+				AAB4117A1D9FB1F9006E7E29 /* UIImage+RoundedCorner.m in Sources */,
 				AA2F4ECD1D9EDAA30049F6C0 /* AGTCoreDataCollectionViewController.m in Sources */,
 				AAB411221D9EF765006E7E29 /* JARPhoto.m in Sources */,
 				AAB4111E1D9EF765006E7E29 /* JARDate.m in Sources */,
@@ -441,6 +458,7 @@
 				AAB411241D9EF765006E7E29 /* JARWriter.m in Sources */,
 				AAB411431D9EF785006E7E29 /* _JARLabel.m in Sources */,
 				AAB410D61D9EDDB5006E7E29 /* JARDownloadHelper.m in Sources */,
+				AAB411791D9FB1F9006E7E29 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
