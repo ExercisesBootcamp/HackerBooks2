@@ -1,12 +1,12 @@
-#import "DRGBookResource.h"
+#import "JARBookResource.h"
 
-@interface DRGBookResource ()
+@interface JARBookResource ()
 
 // Private interface goes here.
 
 @end
 
-@implementation DRGBookResource
+@implementation JARBookResource
 
 // Custom logic goes here.
 

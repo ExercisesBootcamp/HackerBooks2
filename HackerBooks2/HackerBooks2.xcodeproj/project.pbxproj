@@ -58,6 +58,7 @@
 		AAB4117A1D9FB1F9006E7E29 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411771D9FB1F9006E7E29 /* UIImage+RoundedCorner.m */; };
 		AAB4117E1D9FB272006E7E29 /* JARSimplePDFVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4117C1D9FB272006E7E29 /* JARSimplePDFVC.m */; };
 		AAB4117F1D9FB272006E7E29 /* JARSimplePDFVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB4117D1D9FB272006E7E29 /* JARSimplePDFVC.xib */; };
+		AAB411841DA0FA7F006E7E29 /* JARBookResource.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB411831DA0FA7F006E7E29 /* JARBookResource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +161,8 @@
 		AAB4117B1D9FB272006E7E29 /* JARSimplePDFVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARSimplePDFVC.h; sourceTree = "<group>"; };
 		AAB4117C1D9FB272006E7E29 /* JARSimplePDFVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARSimplePDFVC.m; sourceTree = "<group>"; };
 		AAB4117D1D9FB272006E7E29 /* JARSimplePDFVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JARSimplePDFVC.xib; sourceTree = "<group>"; };
+		AAB411821DA0FA7F006E7E29 /* JARBookResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JARBookResource.h; sourceTree = "<group>"; };
+		AAB411831DA0FA7F006E7E29 /* JARBookResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JARBookResource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,8 +265,7 @@
 		AAB410D71D9EDEAC006E7E29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AAB410DF1D9EF065006E7E29 /* Human */,
-				AAB410DE1D9EF05B006E7E29 /* Machine */,
+				AAB411801D9FB3FB006E7E29 /* Mogenerator */,
 				AAB410D81D9EDEC4006E7E29 /* Library.xcdatamodeld */,
 				AAB410DB1D9EEADB006E7E29 /* JARLibraryBaseClass.h */,
 				AAB410DC1D9EEADB006E7E29 /* JARLibraryBaseClass.m */,
@@ -305,6 +307,8 @@
 		AAB410DF1D9EF065006E7E29 /* Human */ = {
 			isa = PBXGroup;
 			children = (
+				AAB411821DA0FA7F006E7E29 /* JARBookResource.h */,
+				AAB411831DA0FA7F006E7E29 /* JARBookResource.m */,
 				AAB411041D9EF765006E7E29 /* JARAnnotation.h */,
 				AAB411051D9EF765006E7E29 /* JARAnnotation.m */,
 				AAB411061D9EF765006E7E29 /* JARAuthor.h */,
@@ -348,6 +352,15 @@
 				AAB411601D9F11E5006E7E29 /* image_placeholder.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		AAB411801D9FB3FB006E7E29 /* Mogenerator */ = {
+			isa = PBXGroup;
+			children = (
+				AAB410DE1D9EF05B006E7E29 /* Machine */,
+				AAB410DF1D9EF065006E7E29 /* Human */,
+			);
+			name = Mogenerator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +448,7 @@
 				AAB4114D1D9EF8D6006E7E29 /* JARAnnotationViewCell.m in Sources */,
 				AAB411701D9FAB6B006E7E29 /* JARBookDetailVC.m in Sources */,
 				AAB410DA1D9EDEC4006E7E29 /* Library.xcdatamodeld in Sources */,
+				AAB411841DA0FA7F006E7E29 /* JARBookResource.m in Sources */,
 				AAB411231D9EF765006E7E29 /* JARTag.m in Sources */,
 				AAB411521D9F0A47006E7E29 /* JARViewController+Navigation.m in Sources */,
 				AAB411481D9EF785006E7E29 /* _JARWriter.m in Sources */,
@@ -566,24 +580,35 @@
 		AA2F4EC11D9ED6040049F6C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"DYLIB_COMPATIBILITY_VERSION[arch=*]" = "";
 				INFOPLIST_FILE = HackerBooks2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juarru.HackerBooks2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		AA2F4EC21D9ED6040049F6C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"DYLIB_COMPATIBILITY_VERSION[arch=*]" = "";
 				INFOPLIST_FILE = HackerBooks2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juarru.HackerBooks2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
